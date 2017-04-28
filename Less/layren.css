@@ -1,0 +1,38 @@
+@import 'base.css';
+body {
+  background-color: #F3F3F3 ;
+}
+.callingCard {
+  height: 3.33333333rem;
+  line-height: 3.33333333rem;
+  width: 100%;
+  background-color: white;
+  margin-top: 2.33333333rem;
+}
+.callingCard .callingCardr {
+  float: left;
+  font-size: 0.93333333rem;
+  color: #333333;
+  margin-left: 1.16666667rem;
+}
+.callingCard .callingCardl {
+  float: right;
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+  margin-right: 2rem;
+  background: url('../img/updata.svg') no-repeat;
+  background-size: 100%;
+  margin-top: 1rem;
+}
+button {
+  margin-top: 4rem;
+  width: 21.13333333rem;
+  height: 2.66666667rem;
+  background-color: #DB1F57;
+  font-size: 1rem;
+  color: white;
+  position: relative;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}

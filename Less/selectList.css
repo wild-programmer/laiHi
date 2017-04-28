@@ -1,0 +1,94 @@
+@import 'base.css';
+body {
+  background-color: #F3F3F3 ;
+}
+.contentT {
+  height: 4.33333333rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  background-color: white;
+}
+.contentT .contentTl {
+  width: 4.83333333rem;
+  height: 3.33333333rem;
+  float: left;
+  margin-top: 0.5rem;
+  margin-left: 0.66666667rem;
+  background-color: pink;
+}
+.contentT .contentTr {
+  margin-left: 5.8rem;
+  font-size: 0.66666667rem;
+  padding-top: 0.83333333rem;
+}
+.contentT .contentTr .contentTrT {
+  height: 0.66666667rem;
+  line-height: 0.66666667rem;
+}
+.contentT .contentTr .contentTrB {
+  height: 0.66666667rem;
+  line-height: 0.66666667rem;
+  margin-top: 0.66666667rem;
+  color: #9b9b9b;
+}
+.contentTB {
+  padding-top: 0.7rem;
+}
+.contentTB .contentTBC {
+  width: 21rem;
+  margin: 0.63333333rem 2rem 0 2rem;
+  background-color: white;
+  border-radius: 0.33333333rem;
+  padding-top: 1rem;
+  padding-left: 0.66666667rem;
+  box-sizing: border-box;
+  border: 1px solid #DB1F57;
+  position: relative;
+}
+.contentTB .contentTBC p {
+  font-size: 0.93333333rem;
+  height: 0.93333333rem;
+  line-height: 0.93333333rem;
+}
+.contentTB .contentTBC span {
+  display: block;
+  font-size: 0.66666667rem;
+  height: 0.66666667rem;
+  line-height: 0.66666667rem;
+  margin-top: 0.56666667rem;
+  color: #DB1F57;
+  margin-bottom: 1rem;
+}
+.contentTB .contentTBC li {
+  position: relative;
+  text-indent: 0.5rem;
+  padding-left: 0.33333333rem;
+  padding-right: 1.66666667rem;
+  letter-spacing: .5px;
+  margin-bottom: 1rem;
+  color: #9b9b9b;
+}
+.contentTB .contentTBC li.active {
+  display: none;
+}
+.contentTB .contentTBC li:before {
+  display: block;
+  content: '*';
+  color: #DB1F57;
+  width: 0.33333333rem;
+  height: 0.33333333rem;
+  position: absolute;
+  left: -0.5rem;
+  top: 0;
+}
+.contentTB .contbefore:before {
+  display: block;
+  content: '';
+  width: 1.43333333rem;
+  height: 1.43333333rem;
+  background: url('../img/select.svg');
+  background-size: 100%;
+  position: absolute;
+  right: -0.13333333rem;
+  top: -0.13333333rem;
+}

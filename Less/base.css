@@ -1,0 +1,190 @@
+﻿/*设置定css的编码*/
+
+@charset "UTF-8";
+
+/*css初始化 start*/
+
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*去除input的框  ctrl + / */
+
+fieldset,
+img,
+input,
+button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+    /*新宋体*/
+}
+
+select,
+input,
+textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+body {
+    -webkit-text-size-adjust: none
+}
+
+
+/*禁止缩放*/
+
+textarea {
+    resize: none;
+}
+
+
+/*让图片基线对齐*/
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font: 12/30rem /150% Arial, Verdana, "\5b8b\4f53";
+    /*宋体 unicode*/
+    color: #333333;
+    background: #FFFFFF;
+    /*白色*/
+}
+
+
+/*清除浮动*/
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/* css骇客 */
+
+.clearfix {
+    *zoom: 1;
+    /*IE/7/6*/
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+
+/*废物利用*/
+
+s,
+i,
+em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+/*单行溢出*/
+
+.one_txt_cut {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+/*多行溢出 手机端使用*/
+
+.txt_cut {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+
+/*以下为响应式内容部分*/
+
+@font-face {
+    font-family: 'itcast';
+    src: url(../font/MiFie-Web-Font.eot) format('embedded-opentype'), url(../font/MiFie-Web-Font.svg) format('svg'), url(../font/MiFie-Web-Font.ttf) format('truetype'), url(../font/MiFie-Web-Font.woff) format('woff')
+}
+
+
+/*写一个类供所有的对象这个引用字体*/
+
+.wjs_icons {
+    font-family: 'itcast';
+    font-size: 16px;
+}
+
+
+/*在引用字体的那个对象里再添加一个类设置字体的内容*/
+
+.phone_icons::before {
+    content: "\e908";
+}
+
+.transitionAll {
+    transition: all 0.3s;
+}
+
+@font-face {
+    font-family: 'wangd';
+    src: url('iconfont/iconfont.eot');
+    src: url('iconfont/iconfont.eot?#iefix') format('embedded-opentype'), url('iconfont/iconfont.woff') format('woff'), url('iconfont/iconfont.ttf') format('truetype'), url('iconfont/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "wangd" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}

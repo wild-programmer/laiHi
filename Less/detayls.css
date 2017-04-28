@@ -1,0 +1,109 @@
+@import 'base.css';
+.topimg {
+  height: 11.33333333rem;
+  width: 100%;
+  background-color: pink;
+  background-size: 100%;
+  position: relative;
+}
+.topimg::before {
+  display: block;
+  content: '';
+  width: 3.33333333rem;
+  height: 3.33333333rem;
+  position: absolute;
+  right: 1rem;
+  bottom: -1.66666667rem;
+  background-image: url('../img/nocollect.svg');
+  background-size: 100%;
+}
+.contentile {
+  padding-left: 0.66666667rem;
+}
+.contentile .cont {
+  border-bottom: 1px solid  #F3F3F3 ;
+  padding-left: 0.4rem;
+}
+.contentile .cont p {
+  margin: 1rem 0;
+  font-size: 1.13333333rem;
+  height: 1.13333333rem;
+  line-height: 1.13333333rem;
+  color: #333333;
+}
+.contentile .cont li {
+  font-size: 0.66666667rem;
+  height: 0.66666667rem;
+  line-height: 0.66666667rem;
+  color: #9b9b9b;
+  margin-bottom: 1rem;
+}
+.contentile .cont li span:last-child {
+  margin-left: 1.33333333rem;
+}
+.content {
+  padding-right: 1.33333333rem;
+  padding-left: 3.56666667rem;
+  padding-top: 1rem;
+  color: #757575;
+}
+.content li {
+  font-size: 0.73333333rem;
+  height: 0.73333333rem;
+  line-height: 0.73333333rem;
+  color: #333333;
+  position: relative;
+}
+.content .time::before {
+  content: '';
+  display: block;
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+  background: url('../img/time.svg');
+  background-size: 100%;
+  position: absolute;
+  left: -2.53333333rem;
+  top: 0rem;
+}
+.content .marginT20 {
+  margin-top: 0.66666667rem;
+}
+.content span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+}
+.content .dizhi {
+  margin-top: 1.66666667rem;
+}
+.content .dizhi::before {
+  content: '';
+  display: block;
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+  background: url('../img/dizhi.svg');
+  position: absolute;
+  left: -2.53333333rem;
+  top: 0rem;
+  background-size: 100%;
+}
+.content .item {
+  margin-top: 1.66666667rem;
+}
+.content .item::before {
+  content: '';
+  display: block;
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+  background: url('../img/item.svg');
+  position: absolute;
+  left: -2.53333333rem;
+  top: 0rem;
+  background-size: 100%;
+}
+.content p {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}

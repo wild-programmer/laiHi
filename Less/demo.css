@@ -1,0 +1,105 @@
+@import 'base.css';
+.site {
+  width: 25rem;
+}
+.site .title {
+  height: 2.93333333rem;
+  line-height: 2.93333333rem;
+  width: 100%;
+  background-color: #F3F3F3 ;
+}
+.site .title .headel {
+  float: left;
+  margin-left: 1rem;
+  font-size: 0.86666667rem;
+  color: #DB1F57;
+  position: relative;
+  height: 2.93333333rem;
+}
+.site .title .headel span {
+  display: inline-block;
+}
+.site .title .headel i {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.66666667rem;
+  transform: rotate(-180deg);
+}
+.site .title .headec {
+  float: left;
+  width: 14.83333333rem;
+  height: 1.66666667rem;
+  border-radius: 0.33333333rem;
+  margin-left: 1.5rem;
+  margin-top: 0.6rem;
+  background: url('../img/search.svg') no-repeat;
+  background-position: 0.53333333rem 0.33333333rem;
+  background-color: white;
+  background-size: 1.1rem;
+}
+.site .title .header {
+  float: right;
+  margin-right: 1.33333333rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: pink;
+  margin-top: 0.46666667rem;
+  overflow: hidden;
+}
+.site .cityname {
+  height: 1.66666667rem;
+  line-height: 1.66666667rem;
+  font-size: 1rem;
+  background-color: #f8f8f8;
+  color: #9b9b9b;
+  padding-left: 1rem;
+  text-align: left;
+}
+.site .cityon {
+  height: 2.66666667rem;
+  line-height: 3.33333333rem;
+  width: 100%;
+  padding-top: 0.66666667rem;
+  box-sizing: border-box;
+  padding-left: 1rem;
+}
+.site .cityon p {
+  text-align: center;
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+  width: 6.66666667rem;
+  font-size: 0.66666667rem;
+  border: 1px solid #DB1F57;
+  border-radius: 0.16666667rem;
+  position: relative;
+}
+.site .cityon .iconon::before {
+  content: '';
+  display: block;
+  width: 0.83333333rem;
+  height: 0.83333333rem;
+  background-color: pink;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.site .cityshow {
+  width: 25rem;
+  padding: 1rem 1rem 0 1rem;
+}
+.site .cityshow p {
+  margin-bottom: 1rem;
+  width: 6.66666667rem;
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+  border: 1px solid #ccc;
+  float: left;
+  text-align: center;
+  border-radius: 0.26666667rem;
+  font-size: 0.66666667rem;
+}
+.site .cityshow .showm {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}

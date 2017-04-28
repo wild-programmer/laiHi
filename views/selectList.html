@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../Less/selectList.css">
+    <title>laiHi</title>
+</head>
+
+<body>
+    <div class="contentT">
+        <div class="contentTl">
+
+        </div>
+        <div class="contentTr">
+            <li class="contentTrT">小小科技小小科技小小科技</li>
+            <li class="contentTrB">
+                <span>上海静安</span>
+                <span>09/05</span>
+            </li>
+        </div>
+    </div>
+    <!--contbefore-->
+    <div class="contentTB">
+        <div class="contentTBC selectitem">
+            <p>项目方路演券</p>
+            <span>￥1500</span>
+            <li class="itemli">项目方路演券：那肯定是男的手先沙发你说阿时啊是否会爱否还有啊视频用户阿萨帝就好撒废话呀打法很发达</li>
+        </div>
+        <div class="contentTBC selectitem">
+            <p>项目方路演券</p>
+            <span>￥1500</span>
+            <li class="itemli">项目方路演券：那肯定是男的手先沙发你说阿时啊是否会爱否还有啊视频用户阿萨帝就好撒废话呀打法很发达</li>
+        </div>
+        <div class="contentTBC">
+            <p>投资人入场券</p>
+            <span>免费</span>
+        </div>
+        <div class="contentTBC">
+            <p>观众券</p>
+            <span>￥10</span>
+        </div>
+    </div>
+</body>
+<script src="../script/common.js">
+</script>
+<script>
+    var itemli = document.querySelectorAll('.itemli');
+    var item = document.querySelectorAll('.selectitem');
+    for (var i = 0; i < itemli.length; i++) {
+        itemli[i].classList.add('active');
+        (function(el, i) {
+            el.addEventListener('click', function() {
+                    // this.stopPropagation();
+                    itemli[i].classList.remove('active');
+                    this.classList.add('contbefore');
+                }, false)
+                // el.onclick = function() {
+                //     // debugger
+                //     el.stopPropagation();
+                //     itemli[i].classList.remove('active');
+                //     this.classList.add('contbefore');
+                // }
+        })(item[i], i)
+    }
+    // document.body.onclick = function() {
+    //     for (var i = 0; i < itemli.length; i++) {
+    //         itemli[i].classList.add('active');
+    //         item[i].classList.remove('contbefore');
+    //     }
+    // }
+</script>
+
+</html>

@@ -1,0 +1,84 @@
+@import '../base.css';
+@Dcolor:#9b9b9b;
+@xcolor:#757575;
+@color:#DB1F57;
+ body{
+    background-color: #F3F3F3 ;
+ }
+ .topImag{
+     width: 100%;
+     height: 420/30rem;
+     background-color: pink;
+     background-size: 100%;
+     margin-bottom: 20/30rem;
+     position: relative;
+    .head{
+        display: block;
+        width: 120/30rem;
+        height: 120/30rem;
+        border-radius: 50%;
+        overflow: hidden;
+        background-color: pink;
+        background-size: 100%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+ }
+ .topImag::before{
+     content: '';
+     display: block;
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     background-color: black;
+     background-size: 100%;
+     opacity: .3;
+ }
+ .content{
+     height: 100/30rem;
+     line-height: 100/30rem;
+     background-color: white;
+     padding-left: 40/30rem;
+     margin-bottom: 2/30rem;
+     p{
+         span{
+             display: block;
+             float: left;
+             font-size: 28/30rem;
+             color: #333333;
+         }
+         i{
+             display: block;
+             width: 20/30rem;
+             height: 30/30rem;
+             background: url('../../img/sanj.svg') no-repeat;
+             background-size: 20/30rem 30/30rem;
+             float: right;
+             margin-top: 35/30rem;
+             margin-right: 65/30rem;
+         }
+     }
+ }
+ .hint{
+     height: 70/30rem;
+     width: 166/30rem;
+     line-height: 70/30rem;
+     background-color: pink;
+     border-radius: 30/30rem 0 0 30/30rem;
+     position: fixed;
+     top:  80%;
+     right: 0;  
+     padding-left: 25/30rem;
+     box-sizing: border-box;
+     span{
+         display: block;
+         float: left;
+         font-size: 24/30rem;
+         color: #333333;
+     }  
+    //  span:
+ }

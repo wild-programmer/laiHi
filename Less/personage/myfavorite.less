@@ -1,0 +1,110 @@
+@import '../base.css';
+@Dcolor:#9b9b9b;
+@xcolor:#757575;
+@color:#DB1F57;
+
+body{
+    background-color: #F3F3F3 ;
+    color: #333333;
+    padding-top: 20/30rem;
+ }
+
+ .contente{
+     background-color: white;
+            .contentel{
+                float: left;
+                width: 200/30rem;
+                height: 140/30rem;
+                background-color: pink;
+                margin: 20/30rem 10/30rem  20/30rem 20/30rem;
+                a{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            border-bottom:  2px solid  #F3F3F3 ;
+            .contenter{
+                ul{
+                    padding-top: 25/30rem;
+                    line-height: 50/30rem;
+                    li:first-child{
+                        font-size: 28/30rem;
+                        line-height:  31/30rem;
+                        color: #333333;
+                        width: 510/30rem;
+                    }
+                    .ulC{
+                        margin-top: 15/30rem;
+                        font-size: 20/30rem;
+                        height: 23/30rem;
+                        line-height:  23/30rem;
+                        color: @Dcolor;
+                        span:last-child{
+                            margin-left: 30/30rem;
+                        }
+                    }
+                    li:last-child{
+                        margin-top: 15/30rem;
+                        font-size: 17/30rem;
+                        height: 20/30rem;
+                        line-height:  20/30rem;
+                        color: @Dcolor;
+                        span{
+                            display: block;
+                            float: left;
+                        }
+                        .ul_l{
+                            font-size: 22/30rem;
+                        }
+                        .ul_c{
+                            margin-left: 10/30rem;
+                        }
+                        .ul_r{
+                            float: right;
+                            text-align: left;
+                            width: 134/30rem;
+                            font-size: 26/30rem;
+                            color: #DB1F57 ;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .toudicon{
+             position: relative;
+        }
+        .toudicon::before{    
+            display: block;
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: #333;
+            opacity: .7;
+        }
+        .TouDiWin{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            width: 130/30rem;
+            height: 130/30rem;
+            border-radius: 50%;
+            background-color: white;
+            text-align: center;            
+            box-sizing: border-box;
+            padding-top: 25/30rem;
+            p{            
+                font-size: 25/30rem;
+                height: 25/30rem;
+                line-height: 25/30rem;
+            }
+            p:last-child{
+                margin-top: 15/30rem;
+            }
+        }
