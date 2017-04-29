@@ -190,27 +190,27 @@ var bodyl = document.querySelector('.bodyl');
 var site = document.querySelector('.site');
 var cityHtml = document.querySelector('.cityHtml');
 var cityselect = document.querySelectorAll('.cityselect');
-cityselect[0].innerText = cityselect[1].innerHTML;
-cityHtml.innerText = cityselect[1].innerHTML;
+cityselect[0].innerText = cityselect[1].innerText;
+cityHtml.innerText = cityselect[1].innerText;
 var showp = document.querySelector('.cityshow').querySelectorAll('p');
 for (var i = 0; i < showp.length; i++) {
     var p = showp[i];
     (function(p) {
         p.addEventListener('touchstart', function() {
-            cityHtml.innerText = this.innerHTML;
-            cityselect[0].innerText = this.innerHTML;
-            cityselect[1].innerText = this.innerHTML;
+            cityHtml.innerText = this.innerText;
+            cityselect[0].innerText = this.innerText;
+            cityselect[1].innerText = this.innerText;
             bodyl.classList.add('transitionAll');
             site.classList.add('transitionAll');
             bodyl.style.webkitTransform = 'translateX(' + (0) + 'rem)';
-            site.style.webkitTransform = 'translateX(' + (-750 / 30) + 'rem)';
+            site.style.webkitTransform = 'translateX(' + (750 / 30) + 'rem)';
         });
     })(p)
 }
 siteshow.addEventListener('touchstart', function() {
     bodyl.classList.add('transitionAll');
     site.classList.add('transitionAll');
-    bodyl.style.webkitTransform = 'translateX(' + (750 / 30) + 'rem)';
+    bodyl.style.webkitTransform = 'translateX(' + (-750 / 30) + 'rem)';
     site.style.webkitTransform = 'translateX(' + (0) + 'rem)';
 });
 

@@ -75,4 +75,12 @@ body {
   float: left;
   font-size: 0.8rem;
   color: #333333;
+  vertical-align: text-bottom;
+}
+.hint .laiHilog {
+  width: 1.33333333rem;
+  height: 1.33333333rem;
+  background-color: #DB1F57;
+  background-size: 100%;
+  margin-top: 0.56666667rem;
 }
