@@ -54,9 +54,21 @@
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  background-color: pink;
+  background: url('../img/banner02.jpg');
+  background-size: 100%;
   margin-top: 0.46666667rem;
-  overflow: hidden;
+  position: relative;
+}
+.site .title .headericon::after {
+  display: block;
+  content: '';
+  width: 0.33333333rem;
+  height: 0.33333333rem;
+  background-color: #DB1F57;
+  position: absolute;
+  right: 0px;
+  top: 1px;
+  border-radius: 50%;
 }
 .site .cityname {
   height: 1.66666667rem;
@@ -156,8 +168,20 @@
   height: 2rem;
   border-radius: 50%;
   background-color: pink;
+  background-size: 100%;
   margin-top: 0.46666667rem;
-  overflow: hidden;
+  position: relative;
+}
+.bodyl .heade .title .headericon::after {
+  display: block;
+  content: '';
+  width: 0.33333333rem;
+  height: 0.33333333rem;
+  background-color: #DB1F57;
+  position: absolute;
+  right: 0px;
+  top: 1px;
+  border-radius: 50%;
 }
 .bodyl .heade .course {
   position: relative;

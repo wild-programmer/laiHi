@@ -67,6 +67,7 @@ body {
   letter-spacing: .5px;
   margin-bottom: 1rem;
   color: #9b9b9b;
+  font-size: 0.66666667rem;
 }
 .contentTB .contentTBC li.active {
   display: none;
@@ -91,4 +92,18 @@ body {
   position: absolute;
   right: -0.13333333rem;
   top: -0.13333333rem;
+}
+.contentTf {
+  position: absolute;
+  bottom: 0.83333333rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.contentTf button {
+  width: 21rem;
+  height: 2.66666667rem;
+  background-color: #DB1F57;
+  color: white;
+  margin-top: 0.5rem;
 }

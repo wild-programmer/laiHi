@@ -58,9 +58,22 @@
             width: 60/30rem;
             height: 60/30rem;
             border-radius: 50%;
-            background-color: pink;
+            // background-color: pink;
+            background: url('../img/banner02.jpg');
+            background-size: 100%;
             margin-top: 14/30rem;
-            overflow: hidden;
+            position: relative;
+        }
+        .headericon::after{
+            display: block;
+            content: '';
+            width: 10/30rem;
+            height: 10/30rem;
+            background-color:@color;
+            position: absolute;
+            right: 0px;
+            top: 1px;
+            border-radius: 50%;
         }
     }
     .cityname{
@@ -163,8 +176,20 @@
             height: 60/30rem;
             border-radius: 50%;
             background-color: pink;
+            background-size: 100%;
             margin-top: 14/30rem;
-            overflow: hidden;
+            position: relative;
+        }
+        .headericon::after{
+            display: block;
+            content: '';
+            width: 10/30rem;
+            height: 10/30rem;
+            background-color:@color;
+            position: absolute;
+            right: 0px;
+            top: 1px;
+            border-radius: 50%;
         }
     }
     .course{

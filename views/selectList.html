@@ -22,55 +22,93 @@
             </li>
         </div>
     </div>
-    <!--contbefore-->
+    <!--contbefore -->
     <div class="contentTB">
-        <div class="contentTBC selectitem">
+        <div class="contentTBC selectitem" data-click='item'>
             <p>项目方路演券</p>
-            <span>￥1500</span>
+            <span>￥ 1500</span>
             <li class="itemli">项目方路演券：那肯定是男的手先沙发你说阿时啊是否会爱否还有啊视频用户阿萨帝就好撒废话呀打法很发达</li>
         </div>
-        <div class="contentTBC selectitem">
+        <div class="contentTBC selectitem" data-click='item'>
             <p>项目方路演券</p>
-            <span>￥1500</span>
+            <span>￥ 1500</span>
             <li class="itemli">项目方路演券：那肯定是男的手先沙发你说阿时啊是否会爱否还有啊视频用户阿萨帝就好撒废话呀打法很发达</li>
         </div>
-        <div class="contentTBC">
+        <div class="contentTBC" data-click='free'>
             <p>投资人入场券</p>
             <span>免费</span>
         </div>
-        <div class="contentTBC">
+        <div class="contentTBC" data-click='guanz'>
             <p>观众券</p>
-            <span>￥10</span>
+            <span>￥ 10</span>
         </div>
+    </div>
+    <div class="contentTf">
+        <p class="qian">1200</p>
+        <button type="button" data-click2=''>确定</button>
     </div>
 </body>
 <script src="../script/common.js">
 </script>
 <script>
+    function hasClass(selector) {
+        var className, elem,
+            i = 0;
+
+        className = " " + selector + " ";
+        while ((elem = this[i++])) {
+            if (elem.nodeType === 1 &&
+                (" " + getClass(elem) + " ").replace(rclass, " ")
+                .indexOf(className) > -1
+            ) {
+                return true;
+            }
+        }
+
+        return false;
+    }
     var itemli = document.querySelectorAll('.itemli');
     var item = document.querySelectorAll('.selectitem');
+    var itemAll = document.querySelectorAll('.contentTBC');
     for (var i = 0; i < itemli.length; i++) {
         itemli[i].classList.add('active');
-        (function(el, i) {
-            el.addEventListener('click', function() {
-                    // this.stopPropagation();
-                    itemli[i].classList.remove('active');
-                    this.classList.add('contbefore');
-                }, false)
-                // el.onclick = function() {
-                //     // debugger
-                //     el.stopPropagation();
-                //     itemli[i].classList.remove('active');
-                //     this.classList.add('contbefore');
-                // }
-        })(item[i], i)
+        (function(el, el2, i) {
+            el.addEventListener('touchstart', function() {
+                var tag = 0;
+                // console.log(itemli[i].classList())
+                for (var i = 0, len = el2.classList.length; i <= len; i++) {
+                    if (el2.classList[i] == 'active') {
+                        el2.classList.remove('active');
+                        this.classList.add('contbefore');
+                        tag++;
+                    }
+                }
+                if (tag == 0) {
+                    el2.classList.add('active');
+                    this.classList.remove('contbefore');
+                }
+            }, false)
+        })(item[i], itemli[i], i)
     }
-    // document.body.onclick = function() {
-    //     for (var i = 0; i < itemli.length; i++) {
-    //         itemli[i].classList.add('active');
-    //         item[i].classList.remove('contbefore');
-    //     }
-    // }
+    for (var i = 0; i < itemAll.length; i++) {
+        (function(el) {
+            el.addEventListener('touchstart', function() {
+                document.querySelector('.qian').innerText = this.querySelector('span').innerText;
+                // console.log(this.getAttribute("data-click"));
+                document.querySelector('button').setAttribute("data-click2", this.getAttribute("data-click"))
+            })
+        })(itemAll[i])
+    }
+
+    document.querySelector('button').addEventListener('touchstart', function() {
+        if (this.getAttribute("data-click2") == 'item') {
+            window.location.href = 'file:///C:/Users/user/Desktop/LaiHi/views/item.html'
+        } else if (this.getAttribute("data-click2") == 'free') {
+            window.location.href = 'file:///C:/Users/user/Desktop/LaiHi/views/layren.html'
+        } else if (this.getAttribute("data-click2") == 'guanz') {
+            window.location.href = 'file:///C:/Users/user/Desktop/LaiHi/views/guanZ.html'
+        }
+    })
 </script>
 
 </html>
