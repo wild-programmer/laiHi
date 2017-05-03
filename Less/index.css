@@ -43,6 +43,8 @@
   border-radius: 0.33333333rem;
   margin-left: 1.5rem;
   margin-top: 0.6rem;
+}
+.site .title .serch {
   background: url('../img/search.svg') no-repeat;
   background-position: 0.53333333rem 0.33333333rem;
   background-color: white;
@@ -102,11 +104,11 @@
   display: block;
   width: 1.16666667rem;
   height: 1.16666667rem;
-  background: url('../img/on.svg');
+  background: url('../img/select.svg');
   background-size: 100%;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: -1px;
+  top: -1px;
 }
 .site .cityshow {
   width: 25rem;
@@ -156,6 +158,8 @@
   border-radius: 0.33333333rem;
   margin-left: 1.5rem;
   margin-top: 0.6rem;
+}
+.bodyl .heade .title .serch {
   background: url('../img/search.svg') no-repeat;
   background-position: 0.53333333rem 0.33333333rem;
   background-color: white;

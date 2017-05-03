@@ -26,9 +26,34 @@
         <div class="callingCardl"></div>
     </div>
 
-    <button type="button"> 提交</button>
+    <button type="button" class="tijiao"> 提交</button>
+
+    <div class="DBg">
+
+    </div>
+    <div class="DBgbox">
+        <p class="DBgtishi">提示</p>
+        <p>请求成功</p>
+        <div class="DBgboxf">
+            <button class="DBgquxiao">取消</button>
+            <button class="DBgqueding">确定</button>
+        </div>
+    </div>
 </body>
 <script src="../script/common.js">
+</script>
+<script>
+    document.querySelector('.tijiao').addEventListener('touchstart', function() {
+        document.querySelector('.DBg').style.display = 'block';
+        document.querySelector('.DBgbox').style.display = 'block';
+    })
+    document.querySelector('.DBgquxiao').addEventListener('touchstart', function() {
+        document.querySelector('.DBg').style.display = 'none';
+        document.querySelector('.DBgbox').style.display = 'none';
+    })
+    document.querySelector('.DBgqueding').addEventListener('touchstart', function() {
+        window.location.href = 'file:///C:/Users/user/Desktop/LaiHi/views/succeed.html'
+    })
 </script>
 
 </html>

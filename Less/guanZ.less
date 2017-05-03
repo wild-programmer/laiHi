@@ -20,10 +20,7 @@
 
 
 
-
-
-
- button{
+ .tijiao{
     margin-top: 120/30rem;
     width: 634/30rem;
     height: 80/30rem;
@@ -35,3 +32,56 @@
     top: 0;
     transform: translateX(-50%);
 }
+
+.DBg{
+    width: 100%;
+    height: 100%;
+    background-color: #a8a8a8;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1111;
+    opacity: .5;
+    display: none;
+}
+
+
+.DBgbox{
+        display: none;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 450/30rem;
+        height: 300/30rem;
+        background-color: white;
+        text-align: center;
+        padding-top:  40/30rem;
+        box-sizing: border-box;
+        border-radius: 10/30rem;
+        z-index: 3111;
+        overflow: hidden;
+        p{
+            color: #b1b1b1;
+        }
+        .DBgtishi{
+            color:#1a1919;
+            margin-bottom: 50/30rem;
+        }
+        .DBgboxf{
+            position: absolute;
+            bottom: 0;
+            height: 80/30rem;
+            width: 450/30rem;
+            border-top: 1px solid #b1b1b1;
+            button{
+                width: 50%;
+                height: 100%;
+                float: left;
+                background-color: white;
+            }
+            .DBgqueding{
+                border-left: 1px solid #b1b1b1; 
+            }
+        }
+    }

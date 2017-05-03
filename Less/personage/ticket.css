@@ -26,16 +26,28 @@ body {
   line-height: 1.66666667rem;
 }
 .contente .contentec ul li:first-child {
-  font-size: 0.93333333rem;
+  font-size: 1rem;
   line-height: 1.06666667rem;
   color: #333333;
-  width: 12.33333333rem;
+  width: 12.5rem;
+  position: relative;
+}
+.contente .contentec ul .liicon:before {
+  display: block;
+  content: '';
+  width: 0.33333333rem;
+  height: 0.33333333rem;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  right: 0rem;
+  top: 0;
 }
 .contente .contentec ul .ulC {
   margin-top: 0.66666667rem;
-  font-size: 0.66666667rem;
+  font-size: 0.6rem;
   height: 0.83333333rem;
-  line-height: 0.66666667rem;
+  line-height: 0.6rem;
   color: #9b9b9b;
 }
 .contente .contentec ul .ulC span:last-child {
@@ -44,7 +56,7 @@ body {
 .contente .contentec ul li:last-child {
   margin-top: 0.5rem;
   font-size: 0.56666667rem;
-  height: 0.66666667rem;
+  height: 0.6rem;
   line-height: 0.66666667rem;
   color: #DB1F57;
   font-size: 0.86666667rem;
@@ -59,15 +71,18 @@ body {
 .contente .contenter .contenterC {
   width: 1.73333333rem;
   height: 1.43333333rem;
-  font-size: 1.73333333rem;
   margin: 0 auto;
   margin-top: 1.66666667rem;
   margin-bottom: 0.66666667rem;
   color: white;
   text-align: center;
+  font-size: 1.43333333rem;
+}
+.contente .contenter .gg {
+  font-size: 1.73333333rem;
 }
 .contente .contenter .marginr {
-  margin-right: 1.5rem;
+  margin-right: 1.16666667rem;
 }
 .contente .contenter p {
   font-size: 0.8rem;

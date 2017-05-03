@@ -1,0 +1,96 @@
+@import '../base.css';
+@Dcolor:#9b9b9b;
+@xcolor:#757575;
+@color:#DB1F57;
+body{
+    background-color: #dfdfdf ;
+ }
+ .content{
+     width: 750/30rem;
+     height: 100%;
+     .contentTop{
+        height: 80/30rem;
+        line-height: 80/30rem;
+        width: 100%;
+        position:fixed;
+        left: 0 ;
+        top: 0;
+        background-color: white;
+        span:first-child{
+            display: block;
+            float: left;
+            width: 30/30rem;
+            height: 30/30rem;
+            background: url('../../img/sanj.svg');
+            background-size: 100%;
+            transform: rotate(180deg);
+            margin-top: 25/30rem;
+            margin-left: 30/30rem;
+        }
+        .span2{
+            display: block;
+            float: right;
+            color: @color;
+            margin-right: 30/30rem;
+        }
+        p{
+            text-align: center;
+        }
+     }
+     .contentTl{
+         width: 35%;
+         height: 100%;
+         background-color: #dfdfdf ;
+         float: left;
+         padding-top: 90/30rem;
+         box-sizing: border-box;
+         ul{
+             li{
+                 height: 70/30rem;
+                 line-height: 70/30rem;
+                 text-align: center;
+                 border-bottom: 1px solid #d0cdcd;
+                 color: @Dcolor;
+                 font-size: 30/30rem;
+             }
+             li.active{
+                 background-color: white;
+                 color: @color;
+             }
+         }
+     }
+     .contentTr{
+         padding-top: 80/30rem;
+         box-sizing: border-box;
+         margin-left: 35%;
+         height: 100%;
+         background-color: white;
+         ul{
+             li{
+                 height: 70/30rem;
+                 line-height: 70/30rem;
+                 text-indent: 30/30rem;
+                 border-bottom: 1px solid #d0cdcd;
+                 color: @Dcolor;
+                 font-size: 12/30rem;
+                 position: relative;
+             }
+             li::before{
+                 content: '';
+                 display: block;
+                 width: 20/30rem;
+                 height: 20/30rem;
+                 position: absolute;
+                 right: 0;
+                 top: 0;
+                 border: 3/30rem solid @Dcolor;
+                 border-radius: 50%;
+                 margin-top: 20/30rem;
+                 margin-right: 20/30rem;
+             }
+             li.activ:before{
+                 background-color: @color;
+             }
+         }
+     }
+ }

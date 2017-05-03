@@ -215,4 +215,17 @@ siteshow.addEventListener('touchstart', function() {
 });
 
 //  li.classList.add('active
-// 调用键盘
+// 调搜索框部分
+var headec2 = document.querySelector('#sousuo2');
+var headec1 = document.querySelector('#sousuo1');
+
+var lick = function(el) {
+    el.onblur = function() {
+        this.classList.add('serch')
+    }
+    el.onfocus = function() {
+        this.classList.remove('serch')
+    }
+}
+lick(headec1);
+lick(headec2);

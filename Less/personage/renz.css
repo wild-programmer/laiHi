@@ -2,10 +2,14 @@
 .marginB20 {
   margin-bottom: 0.66666667rem !important;
 }
+._marginB20 {
+  margin-top: -0.6rem !important;
+}
 body {
   background-color: #F3F3F3 ;
   color: #333333;
   padding-top: 2.33333333rem;
+  text-align: center;
 }
 .box {
   width: 25rem;
@@ -23,6 +27,8 @@ body {
 }
 .box i {
   color: red;
+  display: block;
+  float: left;
 }
 .box span {
   display: block;
@@ -33,4 +39,11 @@ body {
   font-size: 1.33333333rem;
   margin-right: 1.66666667rem;
   margin-top: 1rem;
+}
+.tijiao {
+  width: 21rem;
+  height: 2.66666667rem;
+  background-color: #DB1F57;
+  color: white;
+  margin-top: 4rem;
 }
