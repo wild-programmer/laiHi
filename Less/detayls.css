@@ -1,4 +1,7 @@
 @import 'base.css';
+body {
+  padding-bottom: 5.16666667rem;
+}
 .topimg {
   height: 11.33333333rem;
   width: 100%;
@@ -90,7 +93,7 @@
   background-size: 100%;
 }
 .content .item {
-  margin-top: 1.66666667rem;
+  margin-top: 1.5rem;
 }
 .content .item::before {
   content: '';
@@ -106,4 +109,30 @@
 .content p {
   margin-top: 0.5rem;
   font-size: 0.8rem;
+}
+.foot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 25rem;
+  height: 5.16666667rem;
+  background-color: #f3f3f3;
+  text-align: center;
+  padding-top: 0.8rem;
+  box-sizing: border-box;
+}
+.foot p {
+  height: 0.76666667rem;
+  line-height: 0.76666667rem;
+  font-size: 0.76666667rem;
+  color: #757575;
+  margin-bottom: 0.5rem;
+}
+.foot .tijiao {
+  height: 2.66666667rem;
+  width: 21rem;
+  background-color: #DB1F57;
+  color: white;
+  font-size: 0.93333333rem;
+  border-radius: 0.16666667rem;
 }

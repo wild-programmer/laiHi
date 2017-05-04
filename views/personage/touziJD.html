@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>laiHi</title>
+    <link rel="stylesheet" href="../../Less/personage/touziJD.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="contentTop">
+            <a href="./renz.html"><span></span></a>
+            <span class="span2">保存</span>
+            <p>投资阶段</p>
+        </div>
+        <div class="contentC">
+            <div class="contentCl">
+                <p class="backicon" data-click='1'>种子轮投资</p>
+            </div>
+            <div class="contentCr">
+                <span></span>
+                <p>天使轮投资</p>
+            </div>
+            <div class="contentCl">
+                <p>pre-A轮投资</p>
+            </div>
+            <div class="contentCr">
+                <span></span>
+                <p>A轮投资</p>
+            </div>
+            <div class="contentCl">
+                <p>B轮投资</p>
+            </div>
+            <div class="contentCr">
+                <span></span>
+                <p>C轮投资</p>
+            </div>
+            <div class="contentCl">
+                <p>D轮投资</p>
+            </div>
+            <div class="contentCr">
+                <span></span>
+                <p>E轮投资</p>
+            </div>
+            <div class="contentCl">
+                <p>F轮投资</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="../../script/common.js"></script>
+<script>
+    var ps = document.querySelectorAll('.contentC p');
+    for (var i = 0; i < ps.length; i++) {
+        ps[i].addEventListener('touchstart', function() {
+            if (this.getAttribute('data-click') == '1') {
+                //表示要取消你
+                this.setAttribute('data-click', '0');
+                this.classList.remove('backicon');
+            } else {
+                //表示要添加
+                this.setAttribute('data-click', '1');
+                this.classList.add('backicon');
+            }
+        })
+    }
+</script>
+
+</html>

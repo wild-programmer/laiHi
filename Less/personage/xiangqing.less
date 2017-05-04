@@ -3,7 +3,7 @@
 @xcolor:#757575;
 @color:#DB1F57;
 body{
-    background-color: #dfdfdf ;
+    // background-color: #dfdfdf ;
  }
  .content{
      width: 750/30rem;
@@ -16,6 +16,7 @@ body{
         left: 0 ;
         top: 0;
         background-color: white;
+        z-index: 1111;
         span:first-child{
             display: block;
             float: left;
@@ -32,9 +33,11 @@ body{
             float: right;
             color: @color;
             margin-right: 30/30rem;
+            font-size: 30/30rem;
         }
         p{
             text-align: center;
+            font-size: 30/30rem;
         }
      }
      .contentTl{
@@ -51,7 +54,7 @@ body{
                  text-align: center;
                  border-bottom: 1px solid #d0cdcd;
                  color: @Dcolor;
-                 font-size: 30/30rem;
+                 font-size: 28/30rem;
              }
              li.active{
                  background-color: white;
@@ -89,7 +92,10 @@ body{
                  margin-right: 20/30rem;
              }
              li.activ:before{
-                 background-color: @color;
+                background: url('../../img/Cglog.png') no-repeat;
+                background-position: 50%;
+                background-size:15/30rem;
+                background-color: @color;
              }
          }
      }

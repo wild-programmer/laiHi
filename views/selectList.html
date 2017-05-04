@@ -24,26 +24,26 @@
     </div>
     <!--contbefore -->
     <div class="contentTB">
-        <div class="contentTBC selectitem" data-click='item'>
+        <div class="contentTBC selectitem " data-show='false' data-click='item'>
             <p>项目方路演券</p>
             <span>￥ 1500</span>
             <li class="itemli" data-tag="1">项目方路演券：那肯定是男的手先沙发你说阿时啊是否会爱否还有啊视频用户阿萨帝就好撒废话呀打法很发达</li>
         </div>
-        <div class="contentTBC selectitem" data-click='item'>
+        <div class="contentTBC selectitem" data-show='false' data-click='item'>
             <p>项目方路演券</p>
             <span>￥ 1500</span>
             <li class="itemli" data-tag="1">项目方路演券：那肯定是男的手先沙发你说阿时啊是否会爱否还有啊视频用户阿萨帝就好撒废话呀打法很发达</li>
         </div>
-        <div class="contentTBC contentqt" data-click='free'>
+        <div class="contentTBC contentqt" data-show='false' data-click='free'>
             <p>投资人入场券</p>
             <span>免费</span>
         </div>
-        <div class="contentTBC contentqt" data-click='guanz'>
+        <div class="contentTBC contentqt" data-show='false' data-click='guanz'>
             <p>观众券</p>
             <span>￥ 10</span>
         </div>
     </div>
-    <div class="contentTf">
+    <div class="contentTf" style="display:none">
         <p class="qian"></p>
         <button type="button" data-click2=''>确定</button>
     </div>
@@ -70,7 +70,7 @@
                         this.classList.add('contbefore');
                         tag++;
                         var lem = itemli.length;
-                        for (var i = 0; i <= lem; i++) {
+                        for (var i = 0; i < lem; i++) {
                             if (item[i] !== this) {
                                 item[i].classList.remove('contbefore');
                             }
@@ -88,11 +88,21 @@
             }, false)
         })(item[i], itemli[i], i)
     }
+
     for (var i = 0; i < itemAll.length; i++) {
         (function(el) {
             el.addEventListener('touchstart', function() {
+                // debugger
+                if (this.getAttribute("data-show") == 'true') {
+                    // 如果为true则为点中状态
+                    this.setAttribute("data-show", 'false');
+                    document.querySelector('.contentTf').style.display = 'none';
+                } else {
+                    // 如果为false
+                    this.setAttribute("data-show", 'true');
+                    document.querySelector('.contentTf').style.display = 'block';
+                }
                 document.querySelector('.qian').innerText = this.querySelector('span').innerText;
-                // console.log(this.getAttribute("data-click"));
                 document.querySelector('button').setAttribute("data-click2", this.getAttribute("data-click"))
             })
         })(itemAll[i])
@@ -111,7 +121,6 @@
             })
         })(contentqt[i])
     }
-
     document.querySelector('button').addEventListener('touchstart', function() {
         if (this.getAttribute("data-click2") == 'item') {
             window.location.href = 'file:///C:/Users/user/Desktop/LaiHi/views/item.html'

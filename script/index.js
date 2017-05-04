@@ -36,8 +36,6 @@ course_list[left].style.webkitTransform = 'translateX(' + -screenWidth + 'px)';
 course_list[right].style.webkitTransform = 'translateX(' + screenWidth + 'px)';
 window.addEventListener('resize', function() {
     screenWidth = document.documentElement.clientWidth;
-    //  获取LI的高度赋值给ul 
-    // course_wrap.style.height = course_list[0].offsetHeight +'px';
 })
 var carourTimer = setInterval(function() {
     // 看到下一张的逻辑
@@ -142,9 +140,8 @@ function prevShow() {
         left = course_list.length - 1;
     }
     // 添加过渡
-    // 因为left是替补的图片，所以不需要添加过渡
     setTransition(false, true, true);
-    // 真正的轮转
+    // 轮转
     setTranslateX();
     // 设置小圆点
     setPoints();

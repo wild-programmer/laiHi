@@ -11,6 +11,9 @@ body {
   padding-top: 2.33333333rem;
   text-align: center;
 }
+a {
+  display: block;
+}
 .box {
   width: 25rem;
   height: 3.33333333rem;
@@ -24,6 +27,7 @@ body {
   font-size: 1rem;
   float: left;
   margin-right: 0.26666667rem;
+  color: #333333;
 }
 .box i {
   color: red;
@@ -39,6 +43,7 @@ body {
   font-size: 1.33333333rem;
   margin-right: 1.66666667rem;
   margin-top: 1rem;
+  color: #333333;
 }
 .tijiao {
   width: 21rem;
