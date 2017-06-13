@@ -1,0 +1,50 @@
+.marginB20 {
+  margin-bottom: 20rpx !important;
+}
+._marginB20 {
+  margin-top: -18rpx !important;
+}
+.box {
+  width: 750rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: #f3f3f3;
+  padding-left: 45rpx;
+  box-sizing: border-box;
+  margin-bottom: 2px;
+}
+.box .p {
+  font-size: 30rpx;
+  float: left;
+  margin-right: 8rpx;
+  color: #333333;
+}
+.box .i {
+  color: red;
+  display: block;
+  float: left;
+}
+.box .s {
+  color: #333333;
+  display: block;
+  float: left;
+  margin-left: 20rpx;
+}
+.box .span {
+  display: block;
+  float: right;
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 40rpx;
+  margin-right: 50rpx;
+  margin-top: 30rpx;
+  color: #333333;
+}
+.tijiao {
+  width: 630rpx;
+  height: 80rpx;
+  background-color: #DB1F57;
+  color: white;
+  margin-top: 120rpx;
+}

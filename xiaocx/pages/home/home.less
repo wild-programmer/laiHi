@@ -1,0 +1,66 @@
+
+@Dcolor:#9b9b9b;
+@xcolor:#757575;
+@color:#DB1F57;
+
+.topImag{
+  width: 100%;
+  height: 420rpx;
+  background-color: pink;
+  background-size: 100%;
+  margin-bottom: 20rpx;
+  position: relative;
+  .head{
+    display: block;
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: pink;
+    background-size: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+.topImag::before{
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-size: 100%;
+  opacity: .3;
+}
+
+.hint{
+  height: 70rpx;
+  width: 166rpx;
+  line-height: 70rpx;
+  background-color: pink;
+  border-radius: 30rpx 0 0 30rpx;
+  position: fixed;
+  top:  80%;
+  right: 0;
+  padding-left: 25rpx;
+  box-sizing: border-box;
+  .span{
+    display: block;
+    float: left;
+    font-size: 24rpx;
+    color: #333333;
+    vertical-align: text-bottom;
+    margin-left: 10rpx;
+  }
+  .laiHilog{
+    width: 40rpx;
+    height: 40rpx;
+    background:url('../../img/logo.png');
+    background-size: 100%;
+    margin-top: 15rpx;
+  }
+}

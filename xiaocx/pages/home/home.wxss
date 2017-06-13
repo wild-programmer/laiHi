@@ -1,0 +1,100 @@
+.topImag {
+  width: 100%;
+  height: 420rpx;
+  background-color: pink;
+  background-size: 100%;
+  margin-bottom: 20rpx;
+  position: relative;
+}
+.topImag .head {
+  display: block;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: pink;
+  background-size: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.topImag .head image{
+  width: 100%;
+  height: 100%;
+}
+.topImag::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-size: 100%;
+  opacity: .3;
+}
+
+.flexbox{
+  display: flex;
+  flex-direction: column;
+}
+.flexbox .flexview{
+  flex: 1;
+  padding-left: 42rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: #f3f3f3;
+  margin-bottom: 2rpx;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+.flexbox .flexview text{
+  flex: 1;
+}
+.flexbox .flexview image{
+  margin-top: 34rpx;
+  margin-right: 65rpx;
+  width: 25rpx;
+  height: 35rpx;
+}
+.flexbox .flexbefore::before{
+  display: block;
+  content: '';
+  width: 10rpx;
+  height: 10rpx;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  right: 130rpx;
+  top: 45rpx;
+}
+.hint {
+  height: 70rpx;
+  width: 166rpx;
+  line-height: 70rpx;
+  background-color: pink;
+  border-radius: 30rpx 0 0 30rpx;
+  position: fixed;
+  top: 80%;
+  right: 0;
+  padding-left: 25rpx;
+  box-sizing: border-box;
+}
+.hint .span {
+  display: block;
+  float: left;
+  font-size: 24rpx;
+  color: #333333;
+  vertical-align: text-bottom;
+  margin-left: 10rpx;
+}
+.hint .laiHilog {
+  width: 40rpx;
+  height: 40rpx;
+  background: url('../../image/logo.png');
+  background-size: 100%;
+  margin-top: 15rpx;
+}

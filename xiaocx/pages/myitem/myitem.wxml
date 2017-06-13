@@ -1,0 +1,29 @@
+ <!--有两个标签用了class='block' 它控制着遮罩层的显示-->
+ <view class="contente clearfix toudicon block">
+        <view class="contentel">
+        </view>
+        <view class="contenter">
+            <view class="ul">
+                <view class="txt_cut li">小小科技小小科技小小科技小小科技小小科技小小科技小小科技小小科技小小科技小小科技小小科技小小科技</view>
+                <view class="ulC li"><text class="span">上海静安</text> <text class="span">09/01</text></view>
+            </view>
+        </view>
+        <view class="TouDiWin block">
+            <view class="p">BP</view>
+            <view class="p">投递成功</view>
+        </view>
+    </view>
+    <view class="contente clearfix toudicon ">
+        <view class="contentel">
+        </view>
+        <view class="contenter">
+            <view class="ul">
+                <view class="txt_cut li">小小科技小小科技小小科技小小科技小小科技小小科技小小科技小小科技小小科技小小科技小小科技小小科技</view>
+                <view class="ulC li"><text class="span">上海静安</text> <text class="span">09/01</text></view>
+            </view>
+        </view>
+        <view class="TouDiWin">
+            <view class="p">BP</view>
+            <view class="p">投递成功</view>
+        </view>
+    </view>

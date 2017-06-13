@@ -1,0 +1,62 @@
+
+  <view class="contente clearfix" bindtap="handleTap">
+        <view class="contentel">
+
+        </view>
+        <view class="contenter">
+            <view class="contenterC">
+                <image src="../../image/shalou.png"></image>
+            </view>
+            <view class="p">{{daifk}}</view>
+        </view>
+        <view class="contentec">
+            <view class="ul">
+                <view  class="txt_cut li">{{motto}}</view >
+                <view  class="ulC li"><text class=" span">{{dizhi}}</text> <text class="span">09/01</text></view >
+                <view class="li">
+                   {{qian}}
+                </view >
+            </view>
+        </view>
+    </view>
+
+     <view class="contente clearfix">
+        <view class="contentel">
+        </view>
+        <view class="contenter" style="background-color:#DB1F57">
+            <view class="contenterC">
+                <image src="../../image/qian.png"></image>
+            </view>
+            <view class="p">{{weisy}}</view>
+        </view>
+        <view class="contentec">
+            <view class="ul">
+                <view  class="txt_cut li">{{motto}}</view >
+                <view  class="ulC li"><text class="sviepan">{{dizhi}}</text> <text class="sviewpan">09/01</text></view >
+                <view class="li">
+                   {{qian}}
+                </view >
+            </view>
+        </view>
+    </view>
+   
+   <view class="contente clearfix">
+        <view class="contentel">
+
+        </view>
+        <view class="contenter" style="background-color:#dfdfdf">
+            <view class="contenterC">
+                <image src="../../image/qian.png"></image>
+            </view>
+            <view class="p">{{wanc}}</view>
+        </view>
+        <view class="contentec">
+            <view class="ul">
+                <view  class="txt_cut li">{{motto}}</view >
+                <view  class="ulC li"><text class="sviepan">{{dizhi}}</text> <text class="sviewpan">09/01</text></view >
+                <view class="li">
+                  免费
+                </view >
+            </view>
+        </view>
+    </view>
