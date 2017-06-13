@@ -46,10 +46,11 @@
   height: 100rpx;
   line-height: 100rpx;
   background-color: #f3f3f3;
-  margin-bottom: 2rpx;
+  margin-bottom: 4rpx;
   display: flex;
   position: relative;
   cursor: pointer;
+  font-size: 37rpx;
 }
 .flexbox .flexview text{
   flex: 1;

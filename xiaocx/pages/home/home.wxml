@@ -13,7 +13,7 @@
                 <text>我的收藏</text> <image class="arrows_right" src="../../image/arrows.png"></image>
             </view>
         </navigator>
-         <navigator url="../myitem/myitem" hover-class="none">
+        <navigator url="../myitem/myitem" hover-class="none">
             <view class="flexview flexbefore">
                 <text>我的项目</text> <image class="arrows_right" src="../../image/arrows.png"></image>
             </view>

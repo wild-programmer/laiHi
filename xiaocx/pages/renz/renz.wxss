@@ -44,6 +44,7 @@
 .tijiao {
   width: 630rpx;
   height: 80rpx;
+  line-height: 80rpx;
   background-color: #DB1F57;
   color: white;
   margin-top: 120rpx;
