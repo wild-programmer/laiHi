@@ -50,7 +50,7 @@
   display: flex;
   position: relative;
   cursor: pointer;
-  font-size: 37rpx;
+  font-size: 28rpx;
 }
 .flexbox .flexview text{
   flex: 1;

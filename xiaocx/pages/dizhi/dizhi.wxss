@@ -1,0 +1,122 @@
+
+.site {
+}
+.site .title {
+  height: 88rpx;
+  line-height: 88rpx;
+  width: 750rpx;
+  background-color: #F3F3F3 ;
+  overflow: hidden;
+}
+.site .title .headel {
+  float: left;
+  margin-left: 30rpx;
+  font-size: 26rpx;
+  color: #DB1F57;
+  position: relative;
+  height: 88rpx;
+}
+.site .title .headel .span {
+  display: inline-block;
+}
+.site .title .headel .i {
+  vertical-align: text-top;
+  width: 32rpx;
+  height: 32rpx;
+  transform: rotate(-180deg);
+}
+.site .title .headec {
+  float: left;
+  width: 445rpx;
+  height: 50rpx;
+  border-radius: 10rpx;
+  margin-left: 45rpx;
+  margin-top: 18rpx;
+  font-size: 28rpx;
+}
+.site .title .serch {
+  background: url('../../image/search.png') no-repeat;
+  background-position: 16rpx 10rpx ;
+  background-color: white;
+  background-size: 33rpx;
+}
+.site .title .header {
+  float: right;
+  margin-right: 40rpx;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  background-size: 100%;
+  margin-top: 14rpx;
+  overflow: hidden;
+}
+.site .title .header image{
+  width: 100%;
+  height: 100%;
+}
+.site .title .headericon{
+  width: 10rpx;
+  height: 10rpx;
+  background-color: #DB1F57;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  border-radius: 50%;
+}
+.site .cityname {
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 30rpx;
+  background-color: #f8f8f8;
+  color: #9b9b9b;
+  padding-left: 30rpx;
+  text-align: left;
+}
+.site .cityon {
+  height: 100rpx;
+  line-height: 100rpx;
+  width: 100%;
+  padding-top: 20rpx;
+  box-sizing: border-box;
+  padding-left: 30rpx;
+}
+.site .cityon .p {
+  text-align: center;
+  height: 60rpx;
+  line-height: 60rpx;
+  width: 200rpx;
+  font-size: 25rpx;
+  border: 1px solid #DB1F57;
+  border-radius: 8rpx;
+  position: relative;
+}
+.site .cityon .iconon::before {
+  content: '';
+  display: block;
+  width: 35rpx;
+  height: 35rpx;
+  background: url('../../image/slect.png');
+  background-size: 100%;
+  position: absolute;
+  right: -1px;
+  top: -1px;
+}
+.site .cityshow {
+  width: 750rpx;
+  padding: 30rpx 30rpx  0  30rpx ;
+}
+.site .cityshow .p {
+  margin-bottom: 30rpx;
+  width: 200rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border: 1px solid #ccc;
+  float: left;
+  text-align: center;
+  border-radius: 8rpx;
+  font-size: 25rpx;
+}
+.site .cityshow .showm {
+  margin-left: 45rpx;
+  margin-right: 45rpx;
+}

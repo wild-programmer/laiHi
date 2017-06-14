@@ -14,7 +14,7 @@
   margin-bottom: 2px;
 }
 .box .p {
-  font-size: 30rpx;
+  font-size: 28rpx;
   float: left;
   margin-right: 8rpx;
   color: #333333;
@@ -31,12 +31,9 @@
   margin-left: 20rpx;
 }
 .box .span {
-  display: block;
   float: right;
-  width: 40rpx;
-  height: 40rpx;
-  line-height: 40rpx;
-  font-size: 40rpx;
+  width: 30rpx;
+  height: 30rpx;
   margin-right: 50rpx;
   margin-top: 30rpx;
   color: #333333;

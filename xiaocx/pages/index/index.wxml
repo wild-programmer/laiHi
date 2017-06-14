@@ -1,0 +1,67 @@
+
+            <view class="heade">
+                <view class="title">
+                    <navigator url="../dizhi/dizhi" hover-class="navigator-hover">
+                        <view class="headel siteshow">
+                            <text class="span cityselect">上海</text>
+                            <image class="i" src="../../image/barrow.png"> </image>
+                        </view>
+                    </navigator>
+                    <input type="text" id="sousuo2" class="headec serch" />
+                    <view class="header">
+                        <image src="../../image/banner01.jpg"></image>
+                        <view class="headericon"></view>
+                    </view>
+                </view>
+
+                <!-- 焦点图区�? -->
+                <swiper indicator-dots="{{indicatorDots}}"
+                autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"indicator-dots="true">
+                    <block wx:for="{{imgUrls}}">
+                        <swiper-item>
+                        <image src="{{item}}" class="slide-image" width="100%" height="100%" />
+                        </swiper-item>
+                    </block>
+                </swiper>
+
+                <view class="headeFoot">
+                    <view class="p">热门推荐</view>
+                </view>
+            </view>
+            <view class="content">
+                <navigator url="../detales/detales" hover-class="navigator-hover">
+                    <view class="contente clearfix">
+                        <view class="contentel">
+                        </view>
+                        <view class="contenter">
+                            <view class="ul">
+                                <view class="li txt_cut">小小科技小小科技小小科技小小科技小小科技小小科技小小科技小科技小小科技小小�?</view>
+                                <view class="li ulC"><text class="span">上海静安</text> <text class="span">09/01</text></view>
+                                <view class="li">
+                                    <image src="../../image/yan.png"  class="span ul_l"></image>
+                                    <text  class="span ul_c">67890</text>
+                                    <text  class="span ul_r">￥145起</text>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </navigator>
+                <navigator url="../detales/detales" hover-class="navigator-hover">
+                    <view class="contente clearfix">
+                        <view class="contentel">
+                            <a href="./views/details.html"></a>
+                        </view>
+                        <view class="contenter">
+                            <view class="ul">
+                                <view class="li txt_cut">小小科技小小科技小小科技</view>
+                                <view class="li ulC"><text class="span">上海静安</text> <text class="span">09/01</text></view>
+                                <view class=" li">
+                                    <image src="../../image/yan.png"  class="span ul_l"></image>
+                                    <text  class="span ul_c">67890</text>
+                                    <text  class="span ul_r">￥145起</text>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </navigator>
+            </view>

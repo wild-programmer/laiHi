@@ -16,7 +16,7 @@
   line-height: 50rpx;
 }
 .contente .contentec .ul .li:first-child {
-  font-size: 30rpx;
+  font-size: 28rpx;
   line-height: 32rpx;
   color: #333333;
   width: 375rpx;
@@ -24,7 +24,7 @@
 }
 .contente .contentec .ul .ulC {
   margin-top: 15rpx;
-  font-size: 28rpx;
+  font-size: 20rpx;
   height: 25rpx;
   line-height: 18rpx;
   color: #9b9b9b;

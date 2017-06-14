@@ -26,7 +26,7 @@
 }
 .contente .contenter .ul .ulC {
   margin-top: 5rpx;
-  font-size: 28rpx;
+  font-size: 20rpx;
   height: 28rpx;
   line-height: 28rpx;
   color: #9b9b9b;
@@ -36,7 +36,7 @@
 }
 .contente .contenter .ul .li:last-child {
   margin-top: 5rpx;
-  font-size: 28rpx;
+  font-size: 20rpx;
   height: 40rpx;
   line-height: 40rpx;
   color: #9b9b9b;
@@ -57,7 +57,7 @@
   float: right;
   text-align: left;
   width: 134rpx;
-  font-size: 28rpx;
+  font-size: 26rpx;
   color: #DB1F57 ;
 }
 .toudicon {

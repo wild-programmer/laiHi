@@ -1,0 +1,134 @@
+@import 'base.css';
+@Dcolor:#9b9b9b;
+@xcolor:#757575;
+@color:#DB1F57;
+.site{
+  // display: none;
+  overflow: hidden;
+  position: fixed;
+  right:0;
+  top: 0;
+  -webkit-transform: translateX(750rpx);
+  transform: translateX(750rpx);
+  width: 750rpx;
+  .title{
+    height: 88rpx;
+    line-height: 88rpx;
+    width: 750rpx;;
+    background-color: #F3F3F3 ;
+    overflow: hidden;
+    .headel{
+      float: left;
+      margin-left: 30rpx;
+      font-size: 26rpx;
+      color: #DB1F57;
+      position: relative;
+      height: 88rpx;
+      span{
+        // display: block;
+        display: inline-block;
+      }
+      i{
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 32rpx;
+        transform: rotate(-180deg)
+      }
+    }
+    .headec{
+      float: left;
+      width: 445rpx;
+      height: 50rpx;
+      border-radius: 10rpx;
+      margin-left: 45rpx;
+      margin-top: 18rpx;
+
+    }
+    .serch{
+      background: url('../img/search.svg') no-repeat;
+      background-position: 16rpx 10rpx ;
+      background-color: white;
+      background-size: 33rpx;
+    }
+    .header{
+      float: right;
+      margin-right: 40rpx;
+      width: 60rpx;
+      height: 60rpx;
+      border-radius: 50%;
+      // background-color: pink;
+      background: url('../img/banner02.jpg');
+      background-size: 100%;
+      margin-top: 14rpx;
+      position: relative;
+    }
+    .headericon::after{
+      display: block;
+      content: '';
+      width: 10rpx;
+      height: 10rpx;
+      background-color:@color;
+      position: absolute;
+      right: 0px;
+      top: 1px;
+      border-radius: 50%;
+    }
+  }
+  .cityname{
+    height: 50rpx;
+    line-height:  50rpx;
+    font-size: 30rpx;
+    background-color: #f8f8f8;
+    color:@Dcolor;
+    padding-left: 30rpx;
+    text-align: left;
+  }
+  .cityon{
+    height: 100rpx;
+    line-height: 100rpx;
+    width: 100%;
+    padding-top: 20rpx;
+    box-sizing: border-box;
+    padding-left: 30rpx;
+    p{
+      text-align: center;
+      height: 60rpx;
+      line-height:  60rpx;
+      width: 200rpx;
+      font-size: 20rpx;
+      border: 1px solid @color;
+      border-radius: 5rpx;
+      position: relative;
+    }
+    .iconon::before{
+      content: '';
+      display: block;
+      width: 35rpx;
+      height: 35rpx;
+      background:url('../img/select.svg');
+      background-size: 100%;
+      position: absolute;
+      right: -1px;
+      top: -1px;
+    }
+  }
+  .cityshow{
+    width: 750rpx;
+    padding: 30rpx 30rpx  0  30rpx ;
+    p{
+      margin-bottom: 30rpx;
+      width: 200rpx;
+      height: 60rpx;
+      line-height: 60rpx;
+      border: 1px solid #ccc;
+      float: left;
+      text-align: center;
+      border-radius: 8rpx;
+      font-size: 20rpx;
+    }
+    .showm{
+      margin-left:45rpx;
+      margin-right:45rpx;
+    }
+  }
+}

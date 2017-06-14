@@ -1,0 +1,31 @@
+
+    <view class="guanZ clearfix margin-top">
+        <text class="span">公司</text><text class="i">*</text><input type="text" name="" value=""/>
+    </view>
+    <view class="guanZ clearfix">
+        <text class="span">职位</text><text class="i">*</text><input type="text" name="" value=""/>
+    </view>
+    <view class="guanZ clearfix">
+        <text class="span">手机号码</text><text class="i">*</text><input type="text" name="" value=""/>
+    </view>
+    <view class="callingCard clearfix" style="margin-top:0px;">
+        <view class="callingCardr">
+            BP上传
+        </view>
+        <view class="callingCardl"></view>
+    </view>
+
+    <button type="button" class="tijiao"> 提交</button>
+
+<!--效果是点击提交按钮 显示下边的元素-->
+    <view class="DBg">
+    </view>
+    <view class="DBgbox">
+        <view class="p DBgtishi">提示</view>
+        <view class="p">请求成功</view>
+        <view class="DBgboxf">
+            <button class="DBgquxiao">取消</button>
+            <button class="DBgqueding">确定</button>
+        </view>
+    </view>
+

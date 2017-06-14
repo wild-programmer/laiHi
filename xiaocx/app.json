@@ -1,9 +1,15 @@
 {
   "pages": [
+    "pages/succeed/succeed",
+    "pages/index/index",
+    "pages/dizhi/dizhi",
+    "pages/detales/detales",
+    "pages/baoming/baoming",
+    "pages/item/item",
     "pages/home/home",
+    "pages/piaoquan/piaoquan",
     "pages/collect/collect",
     "pages/myitem/myitem",
-    "pages/piaoquan/piaoquan",
     "pages/renz/renz"
   ],
   "window": {
@@ -13,9 +19,8 @@
   "tabBar": {
     "borderStyle":"white",
     "list": [{
-      "pagePath": "pages/piaoquan/index",
-      "text": "首页",
-      "iconPath":"./image/shalou.png"
+      "pagePath": "pages/piaoquan/piaoquan",
+      "text": "首页"
     }, {
       "pagePath": "pages/index/index",
       "text": "接口"

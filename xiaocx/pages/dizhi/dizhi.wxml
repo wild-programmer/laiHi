@@ -1,0 +1,34 @@
+
+
+<view class="site">
+            <view class="title">
+                <navigator url="../index/index" hover-class="none">            
+                    <view class="headel">
+                        <text class="span cityselect">上海</text>
+                        <image class="i " src="../../image/barrow.png" ></image>
+                    </view>
+                </navigator>
+                <input type="text" id="sousuo1" class="headec serch" />
+                <view class="header">
+                    <image src="../../image/banner01.jpg"></image>
+                    <view class="headericon"></view>
+                </view>
+            </view>
+            <view  class="p cityname">
+                定位城市
+            </view>
+            <view class="cityon">
+                <view  class="p iconon cityHtml">上海</view>
+            </view>
+            <view class="p cityname" >
+                热门城市
+            </view>
+            <view class="cityshow">
+                <view class="p">北京</view>
+                <view class="p showm">上海</view>
+                <view class="p">广州</view>
+                <view class="p">深圳</view>
+                <view class="p showm">杭州</view>
+                <view class="p">成都</view>
+            </view>
+</view>

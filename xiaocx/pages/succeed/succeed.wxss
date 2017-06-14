@@ -1,0 +1,44 @@
+
+.Cglog {
+  width: 120rpx;
+  height: 120rpx;
+  margin: 0 auto;
+  /*background: url('../img/Cglog.svg');*/
+  background-size: 100%;
+  margin-top: 150rpx;
+  margin-bottom: 60rpx;
+}
+.p1 {
+  text-align: center;
+  font-size: 28rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+}
+.p2 {
+  text-align: center;
+  font-size: 24rpx;
+  height: 24rpx;
+  line-height: 24rpx;
+  margin-top: 15rpx;
+  margin-bottom: 120rpx;
+}
+.p2 .a {
+  color: blue;
+}
+button {
+  margin-bottom: 20rpx;
+  width: 634rpx;
+  height: 80rpx;
+  background-color: #DB1F57;
+  font-size: 30rpx;
+  color: white;
+  border-radius: 0;
+  cursor: pointer;
+}
+navigator {
+  display: inline-block;
+}
+.back {
+  color: #333333;
+  background-color: #DFDFDF ;
+}

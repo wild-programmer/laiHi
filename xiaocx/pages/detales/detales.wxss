@@ -1,0 +1,136 @@
+
+body {
+  padding-bottom: 155rpx;
+}
+.topimg {
+  height: 340rpx;
+  width: 100%;
+  background-color: pink;
+  background-size: 100%;
+  position: relative;
+}
+.topbefore {
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  right: 30rpx;
+  bottom: -50rpx;
+  background: url('../../image/logo.png') no-repeat;
+  background-size: 100%;
+}
+.contentile {
+  padding-left: 20rpx;
+}
+.contentile .cont {
+  border-bottom: 1px solid  #F3F3F3 ;
+  padding-left: 12rpx;
+}
+.contentile .cont .p {
+  margin: 30rpx 0;
+  font-size: 32rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  color: #333333;
+}
+.contentile .cont .li {
+  font-size: 20rpx;
+  height: 20rpx;
+  line-height: 20rpx;
+  color: #9b9b9b;
+  margin-bottom: 30rpx;
+}
+.contentile .cont .li .span:last-child {
+  margin-left: 40rpx;
+}
+.content {
+  padding-right: 40rpx;
+  padding-left: 107rpx;
+  padding-top: 30rpx;
+  color: #757575;
+}
+.content .li {
+  font-size: 22rpx;
+  height: 22rpx;
+  line-height: 22rpx;
+  color: #333333;
+  position: relative;
+}
+.content .time::before {
+  content: '';
+  display: block;
+  width: 32rpx;
+  height: 32rpx;
+  background: url('../../image/logo.png');
+  background-size: 100%;
+  position: absolute;
+  left: -76rpx;
+  top: 0rpx;
+}
+.content .marginT20 {
+  margin-top: 20rpx;
+}
+.content .span {
+  display: block;
+  margin-top: 15rpx;
+  font-size: 24rpx;
+  height: 24rpx;
+  line-height: 24rpx;
+}
+.content .dizhi {
+  margin-top: 50rpx;
+}
+.content .dizhi::before {
+  content: '';
+  display: block;
+  width: 32rpx;
+  height: 32rpx;
+  background: url('../../image/logo.png');
+  position: absolute;
+  left: -76rpx;
+  top: 0rpx;
+  background-size: 100%;
+}
+.content .item {
+  margin-top: 45rpx;
+}
+.content .item::before {
+  content: '';
+  display: block;
+  width: 32rpx;
+  height: 32rpx;
+  background: url('../../image/logo.png');
+  position: absolute;
+  left: -76rpx;
+  top: 0rpx;
+  background-size: 100%;
+}
+.content .p {
+  margin-top: 15rpx;
+  font-size: 24rpx;
+}
+.foot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 750rpx;
+  height: 155rpx;
+  background-color: #f3f3f3;
+  text-align: center;
+  padding-top: 24rpx;
+  box-sizing: border-box;
+}
+.foot .p {
+  height: 23rpx;
+  line-height: 23rpx;
+  font-size: 23rpx;
+  color: #757575;
+  margin-bottom: 15rpx;
+}
+.foot .tijiao {
+  height: 80rpx;
+  width: 630rpx;
+  background-color: #DB1F57;
+  color: white;
+  font-size: 28rpx;
+  border-radius: 5rpx;
+}

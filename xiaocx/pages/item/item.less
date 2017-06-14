@@ -1,0 +1,115 @@
+@import 'base.css';
+@Dcolor:#9b9b9b;
+@xcolor:#757575;
+@color:#DB1F57;
+.margin-top{
+  margin-top: 70rpx;
+}
+.callingCard{
+  height: 100rpx;
+  line-height: 100rpx;
+  width: 100%;
+  background-color: white;
+  margin-top: 70rpx;
+  .callingCardr{
+    float: left;
+    font-size: 28rpx;
+    color: #333333;
+    margin-left: 35rpx;
+  }
+  .callingCardl{
+    float: right;
+    width: 32rpx;
+    height: 32rpx;
+    margin-right: 60rpx;
+    background: url('../img/updata.svg') no-repeat;
+    background-size: 100%;
+    margin-top: 30rpx;
+  }
+}
+.guanZ{
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding-left: 40rpx;
+  background-color: white;
+  border-bottom: 2px solid  #F3F3F3 ;
+  span,i,input{
+    display: block;
+    float: left;
+  }
+  i{
+    margin-left: 15rpx;
+    color: @color;
+    vertical-align:bottom;
+  }
+  input{
+    margin-left: 20rpx;
+    height: 100rpx;
+    width: 70%;
+    font-size: 20rpx;
+  }
+}
+.tijiao{
+  margin-top: 120rpx;
+  width: 634rpx;
+  height: 80rpx;
+  background-color: @color;
+  font-size: 30rpx;
+  color: white;
+  position: relative;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.DBg{
+  width: 100%;
+  height: 100%;
+  background-color: #a8a8a8;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1111;
+  opacity: .5;
+  display: none;
+}
+.DBgbox{
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 450rpx;
+  height: 300rpx;
+  background-color: white;
+  text-align: center;
+  padding-top:  40rpx;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+  z-index: 3111;
+  overflow: hidden;
+  p{
+    color: #b1b1b1;
+  }
+  .DBgtishi{
+    color:#1a1919;
+    margin-bottom: 50rpx;
+  }
+  .DBgboxf{
+    position: absolute;
+    bottom: 0;
+    height: 80rpx;
+    width: 450rpx;
+    border-top: 1px solid #b1b1b1;
+    button{
+      width: 50%;
+      height: 100%;
+      float: left;
+      background-color: white;
+    }
+    .DBgqueding{
+      border-left: 1px solid #b1b1b1;
+    }
+  }
+}
