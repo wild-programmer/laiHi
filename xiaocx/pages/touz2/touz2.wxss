@@ -1,0 +1,49 @@
+
+body {
+  background-color: #F3F3F3;
+}
+.content .contentC .contentCr,
+.content .contentC .contentCl {
+  float: left;
+  width: 50%;
+  height: 70rpx;
+  line-height: 70rpx;
+  background-color: white;
+  border-bottom: 1px solid  #dfdfdf ;
+  text-indent: 70rpx;
+}
+.content .contentC .contentCr .p,
+.content .contentC .contentCl .p {
+  position: relative;
+}
+.content .contentC .contentCr .p::before,
+.content .contentC .contentCl .p::before {
+  content: '';
+  display: block;
+  width: 25rpx;
+  height: 25rpx;
+  border: 1rpx solid   #dfdfdf ;
+  position: absolute;
+  left: 30rpx;
+  top: 20rpx;
+  border-radius: 50%;
+  font-size: 28rpx;
+}
+.content .contentC .contentCr .backicon::before,
+.content .contentC .contentCl .backicon::before {
+  background: url('../../image/Cglog.png') no-repeat;
+  background-position: 50%;
+  background-size: 15rpx;
+  background-color: #DB1F57;
+}
+.content .contentC .contentCr {
+  float: right;
+}
+.content .contentC .contentCr .span {
+  display: block;
+  float: left;
+  height: 100%;
+  width: 1px;
+  background-color: #dfdfdf ;
+}
+

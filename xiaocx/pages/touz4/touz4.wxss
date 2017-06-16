@@ -1,0 +1,15 @@
+
+.contentC3 .span {
+  display: block;
+  float: left;
+  width: 120rpx;
+  height: 60rpx;
+  color: #DB1F57;
+  border: 1px solid #DB1F57;
+  border-radius: 35rpx;
+  text-align: center;
+  line-height: 60rpx;
+  margin-top: 15rpx;
+  margin-left: 15rpx;
+  font-size: 30rpx;
+}

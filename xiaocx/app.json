@@ -1,16 +1,17 @@
 {
   "pages": [
-    "pages/succeed/succeed",
     "pages/index/index",
     "pages/dizhi/dizhi",
     "pages/detales/detales",
     "pages/baoming/baoming",
     "pages/item/item",
+    "pages/succeed/succeed",
     "pages/home/home",
     "pages/piaoquan/piaoquan",
     "pages/collect/collect",
     "pages/myitem/myitem",
-    "pages/renz/renz"
+    "pages/renz/renz",
+    "pages/touz4/touz4"
   ],
   "window": {
     "navigationBarTitleText": "棋至文化",

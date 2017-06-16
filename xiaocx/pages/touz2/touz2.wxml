@@ -1,0 +1,35 @@
+ <view class="content">
+        <view class="contentC">
+            <view class="contentCl">
+                <view class="p" class="backicon" data-click='1'>种子轮投资</view>
+            </view>
+            <view class="contentCr">
+                <text class="span"></text>
+                <view class="p">天使轮投资</view>
+            </view>
+            <view class="contentCl">
+                <view class="p">pre-A轮投资</view>
+            </view>
+            <view class="contentCr">
+                <text class="span"></text>
+                <view class="p">A轮投资</view>
+            </view>
+            <view class="contentCl">
+                <view class="p">B轮投资</view>
+            </view>
+            <view class="contentCr">
+                <text class="span"></text>
+                <view class="p">C轮投资</view>
+            </view>
+            <view class="contentCl">
+                <view class="p">D轮投资</view>
+            </view>
+            <view class="contentCr">
+                <text class="span"></text>
+                <view class="p">E轮投资</view>
+            </view>
+            <view class="contentCl">
+                <view class="p">F轮投资</view>
+            </view>
+        </view>
+    </view>

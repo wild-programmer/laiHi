@@ -1,0 +1,11 @@
+ <view class="content">       
+        <view class="contentC3">
+            <text class="span">北京</text>
+            <text class="span">上海</text>
+            <text class="span">广州</text>
+            <text class="span">杭州</text>
+            <text class="span">郑州</text>
+            <text class="span">深圳</text>
+            <text class="span">四川</text>
+        </view>
+    </view>

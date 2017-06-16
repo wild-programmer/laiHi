@@ -15,7 +15,9 @@
         <view class="callingCardl"></view>
     </view>
 
-    <button type="button" class="tijiao"> 提交</button>
+    <navigator url="../succeed/succeed" hover-class="none">
+        <button type="button" class="tijiao"> 提交</button>
+    </navigator>
 
 <!--效果是点击提交按钮 显示下边的元素-->
     <view class="DBg">

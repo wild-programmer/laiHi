@@ -1,0 +1,121 @@
+@import '../base.css';
+@Dcolor:#9b9b9b;
+@xcolor:#757575;
+@color:#DB1F57;
+body{
+  background-color: #F3F3F3;
+}
+.content{
+  width: 750rpx;
+  height: 100%;
+  .contentTop{
+    height: 80rpx;
+    line-height: 80rpx;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid  #dfdfdf ;
+    span:first-child{
+      display: block;
+      float: left;
+      width: 30rpx;
+      height: 30rpx;
+      background: url('../../img/sanj.svg');
+      background-size: 100%;
+      transform: rotate(180deg);
+      margin-top: 25rpx;
+      margin-left: 30rpx;
+    }
+    .span2{
+      display: block;
+      float: right;
+      color: @color;
+      margin-right: 30rpx;
+      font-size: 30rpx;
+    }
+    p{
+      text-align: center;
+      font-size: 30rpx;
+    }
+  }
+  .contentC{
+    .contentCr,
+    .contentCl{
+      float: left;
+      width: 50%;
+      height: 70rpx;
+      line-height: 70rpx;
+      background-color: white;
+      border-bottom:  1px solid  #dfdfdf ;
+      text-indent: 70rpx;
+      p{
+        position: relative;
+      }
+      p::before{
+        content: '';
+        display: block;
+        width: 25rpx;
+        height: 25rpx;
+        border:1rpx solid   #dfdfdf ;
+        position: absolute;
+        left: 30rpx;
+        top: 20rpx;
+        border-radius: 50%;
+        font-size: 28rpx;
+      }
+      .backicon::before{
+        background: url('../../img/Cglog.png') no-repeat;
+        background-position: 50%;
+        background-size:15rpx;
+        background-color: @color;
+      }
+    }
+    .contentCr{
+      float: right;
+      //    border-left:  1px solid  #dfdfdf ;
+      span{
+        display: block;
+        float: left;
+        height: 100%;
+        width: 1px;
+        background-color:   #dfdfdf ;
+      }
+    }
+  }
+}
+
+.contentC2{
+  margin-top: 50rpx;
+  text-align: center;
+  span{
+    display: inline-block;
+    margin: 0 10rpx;
+  }
+  input{
+    width: 200rpx;
+    height: 70rpx;
+    background-color: white;
+    text-align: right;
+    font-size: 28rpx;
+    text-indent: 10rpx;
+  }
+  p{
+    font-size: 18rpx;
+    margin-top: 30rpx;
+  }
+}
+.contentC3{
+  span{
+    display: block;
+    float: left;
+    width: 120rpx;
+    height: 60rpx;
+    color: @color;
+    border: 1px solid @color;
+    border-radius: 35rpx;
+    text-align: center;
+    line-height:  60rpx;
+    margin-top: 15rpx;
+    margin-left: 15rpx;
+    font-size: 30rpx;
+  }
+}
