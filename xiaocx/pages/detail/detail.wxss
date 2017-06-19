@@ -1,0 +1,160 @@
+
+.title{
+  position: relative;
+}
+.title_img{
+   height: 11.33333333rem;
+  width: 100%;
+  background-color: pink;
+  background-size: 100%;
+  position: relative;
+}
+.view_before{
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  right: 1rem;
+  bottom: -1rem;
+  background-size: 100%;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #9b9b9b;
+  box-shadow: 0px 1px 1px 0px #9b9b9b;
+}
+.view_before image{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto;
+}
+.contentile {
+  padding-left: 20rpx;
+}
+.contentile .cont {
+  border-bottom: 1px solid  #F3F3F3 ;
+  padding-left: 12rpx;
+}
+.contentile .cont .p {
+  margin: 30rpx 0;
+  font-size: 32rpx;
+  color: #333333;
+}
+.contentile .cont .li {
+  font-size: 20rpx;
+  height: 20rpx;
+  line-height: 20rpx;
+  color: #9b9b9b;
+  margin-bottom: 30rpx;
+}
+.contentile .cont .li .span:last-child {
+  margin-left: 40rpx;
+}
+.content {
+  padding-right: 40rpx;
+  padding-left: 107rpx;
+  padding-top: 30rpx;
+  color: #757575;
+  margin-bottom: 160rpx;
+}
+.content .li {
+  font-size: 22rpx;
+  height: 22rpx;
+  line-height: 22rpx;
+  color: #333333;
+  position: relative;
+}
+.content .marginT20 {
+  margin-top: 20rpx;
+}
+.content .span {
+  display: block;
+  margin-top: 15rpx;
+  font-size: 24rpx;
+  height: 24rpx;
+  line-height: 24rpx;
+}
+.content .dizhi {
+  margin-top: 50rpx;
+}
+.content .item {
+  margin-top: 45rpx;
+}
+.content .p {
+  margin-top: 15rpx;
+  font-size: 24rpx;
+}
+.content .p view{
+  padding-right: 5rpx;
+}
+.foot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 750rpx;
+  height: 155rpx;
+  background-color: #f3f3f3;
+  text-align: center;
+  padding-top: 24rpx;
+  box-sizing: border-box;
+}
+.foot .p {
+  height: 23rpx;
+  line-height: 23rpx;
+  font-size: 23rpx;
+  color: #757575;
+  margin-bottom: 15rpx;
+}
+.foot .tijiao {
+  height: 80rpx;
+  width: 630rpx;
+  background-color: #DB1F57;
+  color: white;
+  font-size: 28rpx;
+  border-radius: 5rpx;
+}
+
+.content .marginT20 {
+  margin-top: 0.66666667rem;
+  float: left;
+  margin-right: 1rem;
+}
+.content .time{
+  position: relative;
+}
+.content  .time_before{
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+  position: absolute;
+  left: -1.8rem;
+  top: 0rem;
+}
+ .content  .time_before image{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: -.1rem;
+   left: 0;
+ }
+.content .content_div{
+  display: block;
+}
+.content .span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+}
+.content .dizhi {
+  margin-top: 1.66666667rem;
+}
+.content .item {
+  margin-top: 1.5rem;
+}
+.content .wxParse {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+}

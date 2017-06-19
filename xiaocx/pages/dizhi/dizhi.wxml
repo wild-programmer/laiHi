@@ -5,12 +5,12 @@
                 <navigator url="../index/index" hover-class="none">            
                     <view class="headel">
                         <text class="span cityselect">{{location}}</text>
-                        <image class="i " src="../../image/barrow.png" ></image>
+                        <image class="i " src="../../images/barrow.png" ></image>
                     </view>
                 </navigator>
                 <input type="text" id="sousuo1" class="headec serch" />
                 <view class="header">
-                    <image src="../../image/banner01.jpg"></image>
+                    <image src="../../images/banner01.jpg"></image>
                     <view class="headericon"></view>
                 </view>
             </view>

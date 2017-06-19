@@ -1,35 +1,44 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/dizhi/dizhi",
-    "pages/detales/detales",
-    "pages/baoming/baoming",
-    "pages/item/item",
+    "pages/enrolled2/enrolled2",
+    "pages/user/user",
     "pages/succeed/succeed",
-    "pages/home/home",
-    "pages/piaoquan/piaoquan",
-    "pages/collect/collect",
-    "pages/myitem/myitem",
-    "pages/renz/renz",
-    "pages/touz4/touz4"
+    "pages/index/index",
+    "pages/enrolledinfo/enrolledinfo",
+    "pages/dizhi/dizhi",
+    "pages/myticket/myticket",
+    "pages/detail/detail",
+    "pages/login/login",
+    "pages/logs/logs",
+    "pages/enrolled/enrolled",
+    "pages/mycollection/mycollection",
+    "pages/myproject/myproject",
+    "pages/renzheng/renzheng",
+    "pages/touz1/touz1",
+    "pages/touz2/touz2",
+    "pages/touz3/touz3",
+    "pages/touz4/touz4",
+    "pages/jianjie/jianjie"
   ],
-  "window": {
-    "navigationBarTitleText": "棋至文化",
-    "backgroundColor":"rgb(0, 243, 243)"
-  },
   "tabBar": {
-    "borderStyle":"white",
-    "list": [{
-      "pagePath": "pages/piaoquan/piaoquan",
-      "text": "首页"
-    }, {
-      "pagePath": "pages/index/index",
-      "text": "接口"
-    }]
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
   },
-  "networkTimeout": {
-    "request": 10000,
-    "downloadFile": 10000
-  },
-  "debug": true
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#DB1F57",
+    "navigationBarTitleText": "棋至文化",
+    "navigationBarTextStyle": "black"
+  }
 }

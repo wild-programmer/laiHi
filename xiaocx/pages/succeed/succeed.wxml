@@ -3,13 +3,14 @@
     </view>
     <view class="p1">报名成功</view>
     <view class="p2">进入
-    <navigator url="../home/home" hover-class="none">
+    <navigator url="../myticket/myticket"  hover-class="none">
         <text class="a">我的票券</text>
     </navigator>
     即可查看</view>
-    <button type="button">分享活动</button>
-    <navigator url="../index/index" hover-class="navigator-hover" style="display:block">
-        <button type="button" class="back">
-                <text class="a">返回首页</text>
-        </button>
-    </navigator>
+    <view class="marginbutton">
+     <navigator url="../index/index"  hover-class="none">
+          <button type="button" class="back">
+                  <text class="a">返回首页</text>
+          </button>
+      </navigator>
+    </view>

@@ -1,0 +1,59 @@
+<import src="../../wxParse/wxParse.wxml"/>
+    <view class="title">
+      <image class="title_img" src="{{detail.imgepath}}" mode="center" />
+      <view class="view_before" >
+        <image  src="../../images/star.png"   />
+      </view>
+  </view>
+    <view class="contentile">
+        <view class="cont">
+            <view class="p">{{detail.title}}</view>
+            <view class="li">
+                <text class="span">浏览 {{detail.browsecount}}</text>
+                <text class="span">收藏 {{detail.collectioncount}}</text>
+            </view>
+        </view>
+    </view>
+    <view class="content">
+        <view class="li time">时间
+          <view class="time_before">
+              <image  src="../../images/time.png" />
+           </view>
+        </view>
+        
+        <view class="marginT20 span">{{detail.day}}</view>
+        <view class="span data_week">{{detail.week}}</view>
+        <view class="span span_bock">{{detail.time}}</view>
+        <view class="li dizhi" >地址
+            <view class="time_before">
+              <image  src="../../images/dizhi.png" />
+            </view>
+        </view>
+        <text class="span">{{detail.address}}</text>
+        <view class="li item" >项目详情
+          <view class="time_before">
+              <image  src="../../images/xiangq.png" />
+            </view>
+        </view>
+        <view class="p">
+            <template is="wxParse" data="{{wxParseData:detail_content.nodes}}"/>
+        </view>
+    </view>
+    <!--底部按钮-->
+    <view class="foot">
+        <view class="p">
+        <view wx:if="{{detail.price == '免费'}}">
+            <text  class="span">{{detail.price}}</text>
+        </view>
+         <view wx:else> 
+            <text class="span">￥</text>
+            <text class="span">{{detail.price}}</text>
+            <text class="span">起</text>
+         </view>           
+        </view>
+        
+   
+       <navigator url="../enrolled/enrolled?a_id={{detail.a_id}}&address={{detail.address}}&title={{detail.title}}&imgepath={{detail.imgepath}}&time={{detail.time}}&price_list={{price_list}}" >    
+        <button type="button" class="tijiao">报名</button>
+        </navigator>
+    </view>

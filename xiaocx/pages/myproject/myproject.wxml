@@ -1,0 +1,21 @@
+ <!-- 有两个标签用了class='block' 它控制着遮罩层的显示 -->
+<block wx:for="{{pd_list}}">
+ <view class="contente clearfix toudicon block">
+        <view class="contentel">
+        </view>
+        <view class="contenter">
+            <view class="ul">
+                <view class="txt_cut li">{{item.title}}</view>
+                <view class="ulC li">
+                  <text class="span">{{item.address}}</text> 
+                  <text class="span">{{item.time}}</text>
+                </view>
+            </view>
+        </view>
+        <view class="TouDiWin block">
+            <view class="p">BP</view>
+            <view class="p">投递成功</view>
+        </view>
+  </view>
+</block>  
+   

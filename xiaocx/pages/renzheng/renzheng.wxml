@@ -1,0 +1,42 @@
+
+    <view class="box">
+            <view class="p">名片上传</view><text class="i">*</text>
+            <text class='s'></text>
+            <image class="span " src="../../images/add.png"></image>
+    </view>
+   
+        <navigator url="../jianjie/jianjie"  hover-class="none">
+          <view class="box marginB20">
+                  <view class="p">个人简介</view>
+                  <image class="span " src="../../images/arrows.png"></image>
+          </view>
+        </navigator>
+        <navigator url="../touz1/touz1"  hover-class="none">
+            <view class="box">
+              <view class="p">投资领域</view>
+              <image class="span " src="../../images/arrows.png"></image>
+            </view>
+          </navigator>
+
+
+        <navigator url="../touz2/touz2"  hover-class="none">
+          <view class="box">
+              <view class="p">投资阶段</view>
+              <image class="span " src="../../images/arrows.png"></image>
+          </view>
+         </navigator>
+
+          <navigator url="../touz3/touz3"  hover-class="none">
+            <view class="box">
+                <view class="p">单笔投资</view>
+                <image class="span " src="../../images/arrows.png"></image>
+            </view>
+          </navigator>
+
+           <navigator url="../touz4/touz4"  hover-class="none">
+              <view class="box">
+                  <view class="p">关注地区</view>
+                  <image class="span " src="../../images/arrows.png"></image>
+              </view>
+           </navigator>
+    <button type="button" class="tijiao">提交</button>

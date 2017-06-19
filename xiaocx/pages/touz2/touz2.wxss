@@ -1,22 +1,24 @@
 
-body {
+.content  {
   background-color: #F3F3F3;
 }
 .content .contentC .contentCr,
 .content .contentC .contentCl {
   float: left;
-  width: 50%;
-  height: 70rpx;
-  line-height: 70rpx;
+  width: 375rpx;
+  height: 80rpx;
+  line-height: 80rpx;
   background-color: white;
   border-bottom: 1px solid  #dfdfdf ;
-  text-indent: 70rpx;
+  padding-left: 70rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
 }
 .content .contentC .contentCr .p,
 .content .contentC .contentCl .p {
   position: relative;
 }
-.content .contentC .contentCr .p::before,
+/*.content .contentC .contentCr .p::before,
 .content .contentC .contentCl .p::before {
   content: '';
   display: block;
@@ -28,7 +30,7 @@ body {
   top: 20rpx;
   border-radius: 50%;
   font-size: 28rpx;
-}
+}*/
 .content .contentC .contentCr .backicon::before,
 .content .contentC .contentCl .backicon::before {
   background: url('../../image/Cglog.png') no-repeat;

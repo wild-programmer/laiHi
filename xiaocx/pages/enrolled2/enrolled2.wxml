@@ -1,0 +1,61 @@
+<view class="body" style="height:{{windowHeight}}px">
+    <view class="contentT">
+          <view class="contentTl">
+                <image src="{{imgepath}}" mode="center" />
+          </view>  
+          <view class="contentTr">
+              <view class="li txt_cut contentTrT">小小科小小科技小小科技小小科技科技</view>
+              <view class="li contentTrB">
+                  <text class="span">上海静安</text>
+                  <text class="span time">09/05</text>
+              </view>
+          </view>
+    </view>
+
+    <view class="contentB clearfix">
+      <view class="i"></view>
+      <view class="i" style="top:35rpx"></view>
+      <view class="i" style="top:65rpx"></view>
+      <view class="i" style="top:95rpx"></view>
+      <view class="i" style="top:100rpx"></view>
+      <view class="i" style="top:130rpx"></view>
+      <view class="i" style="top:155rpx"></view>
+      <view class="i" style="top:180rpx;left:-18.5rpx"></view>
+      <view class="contentBl">
+          <view class="contentTBT">
+                <text class="span">免费</text>
+                <text class="p txt_cut">会员票会员免费票会员票免费票会员免费票会免费票会员免费票会员免费票</text>
+          </view>
+          <view class="contentTBB">
+            <text>(会员会员会员会员会员会员会员会员会员会员会员会员会员会员会员会员会员会员会员会员会员会员)</text>
+          </view>
+      </view>
+      <view class="contentBr">
+        <text>购买</text>
+      </view>
+        
+    </view>
+    <view class="contentB clearfix">
+      <view class="i"></view>
+      <view class="i" style="top:35rpx"></view>
+      <view class="i" style="top:65rpx"></view>
+      <view class="i" style="top:95rpx"></view>
+      <view class="i" style="top:100rpx"></view>
+      <view class="i" style="top:130rpx"></view>
+      <view class="i" style="top:155rpx"></view>
+      <view class="i" style="top:180rpx;left:-18.5rpx"></view>
+      <view class="contentBl">
+          <view class="contentTBT">
+                <text class="span qian">￥6000</text>
+                <text class="p txt_cut">会员票会员免费票会员票免费票会员免费票会免费票会员免费票会员免费票</text>
+          </view>
+          <view class="contentTBB">
+            <text>(会员会员会员会员会员会员会员会员会员会员会员会员会员会员会员会员会员会员会员会员会员会员)</text>
+          </view>
+      </view>
+      <view class="contentBr">
+        <text>购票</text>
+      </view>
+        
+    </view>
+ </view>

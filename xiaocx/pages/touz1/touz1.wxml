@@ -1,12 +1,12 @@
-<view class="content">
+<view class="content" style="height:{{windowHeight}}px" >
         <view class="contentTl">
             <view class="ul">
-                <view class="li active">小小科技</view>
-                <view class="li">小小科技</view>
-                <view class="li">小小科技</view>
-                <view class="li">小小科技</view>
-                <view class="li">小小科技</view>
-                <view class="li">小小科技</view>
+                <view class="li {{active}}" name="liname1" catchtouchend="touchactive">小小科技</view>
+                <view class="li {{act}}" name="liname2" catchtouchend="touchactive">小小科技</view>
+                <view class="li {{act}}" name="liname3" catchtouchend="touchactive">小小科技</view>
+                <view class="li {{act}}" name="liname" catchtouchend="touchactive">小小科技</view>
+                <view class="li {{act}}" name="liname" catchtouchend="touchactive">小小科技</view>
+                <view class="li {{act}}" name="liname" catchtouchend="touchactive">小小科技</view>
             </view>
         </view>
         <view class="contentTr">

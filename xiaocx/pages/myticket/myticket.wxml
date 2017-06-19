@@ -1,0 +1,142 @@
+
+<!--<view class="body" style="height:{{windowHeight}}px">-->
+<!-- 活动列表 -->
+   <!--<block wx:for="{{pd_list}}">
+    <view class="contente clearfix">
+        <view class="contentel">
+          <image src="{{item.imgepath}}"></image>
+        </view>
+
+        <view wx:if="{{item.status == 0}}">
+          <view class="contenter">
+              <view class="contenterC">
+                  <image src="../../images/shalou.png"></image>
+              </view>
+              <view class="p">待付款</view>
+            </view>
+       </view>
+        
+
+        <view wx:if="{{item.status == 1}}">
+          <view class="contenter" style="background-color:#009ba1">
+              <view class="contenterC  marginr">
+                <image src="../../images/shalou.png"></image> 
+              </view>
+              <view class="p">已购票</view>
+          </view>
+        </view>
+
+        <view wx:if="{{item.status == 2}}">
+          <view class="contenter" style="background-color:#dfdfdf">
+            <view class="contenterC">
+                <image src="../../images/qian.png"></image>
+            </view>
+            <view class="p">已完成</view>
+         </view>
+        </view>
+
+        <view class="contentec">
+            <view class="li firstli one_txt_cut">{{item.title}}</view>
+            <view class="ulC li">
+                 <text class="span">{{item.address}}</text> 
+                 <text class="span lastspan">{{item.time}}</text>
+            </view>
+            <view class="li lastli">
+              {{item.price}}
+            </view>
+        </view>
+    </view>
+    </block>     
+</view>-->
+
+<block wx:for="{{pd_list}}">
+  <view class="contente clearfix" bindtap="handleTap">
+        <view class="contentel">
+          <image src="{{item.imgepath}}"></image>
+        </view>
+        <!--1-->
+        <view wx:if="{{item.status == 0}}">
+          <view class="contenter">
+              <view class="contenterC">
+                    <image src="../../images/shalou.png"></image>
+              </view>
+              <view class="p">待付款</view>
+          </view>
+        </view>
+        <!--2-->
+        <view wx:if="{{item.status == 1}}">
+          <view class="contenter" style="background-color:#DB1F57">
+              <view class="contenterC">
+                  <image src="../../images/qianicon.png"></image>
+              </view>
+              <view class="p">已购票</view>
+          </view>
+         </view>
+        <!--3-->
+        <view wx:if="{{item.status == 2}}">
+          <view class="contenter" style="background-color:#dfdfdf">
+              <view class="contenterC">
+                  <image src="../../images/qianicon.png"></image>
+              </view>
+              <view class="p">已完成</view>
+          </view>
+        </view>
+        <view class="contentec">
+            <view class="ul">
+                <view  class="txt_cut li">{{item.title}}</view >
+                <view  class="ulC li"><text class=" span">{{item.address}}</text> <text class="span">{{item.time}}</text></view >
+                <view  class="li" wx:if="{{item.price == '免费'}}">
+                    <text>{{item.price}}</text>
+                </view>
+                <view wx:else class="li"> 
+                    <text >￥{{item.price}}</text>
+                </view>
+                <!--<view class="li">
+                  ￥{{item.price}}
+                </view >-->
+            </view>
+        </view>
+    </view>
+    </block>     
+<!--
+     <view class="contente clearfix">
+        <view class="contentel">
+          <image src="{{item.imgepath}}"></image>
+        </view>
+        <view class="contenter" style="background-color:#DB1F57">
+            <view class="contenterC">
+                <image src="../../images/qianicon.png"></image>
+            </view>
+            <view class="p">{{weisy}}</view>
+        </view>
+        <view class="contentec">
+            <view class="ul">
+                <view  class="txt_cut li">{{motto}}</view >
+                <view  class="ulC li"><text class="sviepan">{{dizhi}}</text> <text class="sviewpan">09/01</text></view >
+                <view class="li">
+                   {{qian}}
+                </view >
+            </view>
+        </view>
+    </view>
+   
+   <view class="contente clearfix">
+        <view class="contentel">
+
+        </view>
+        <view class="contenter" style="background-color:#dfdfdf">
+            <view class="contenterC">
+                <image src="../../images/qianicon.png"></image>
+            </view>
+            <view class="p">{{wanc}}</view>
+        </view>
+        <view class="contentec">
+            <view class="ul">
+                <view  class="txt_cut li">{{motto}}</view >
+                <view  class="ulC li"><text class="sviepan">{{dizhi}}</text> <text class="sviewpan">09/01</text></view >
+                <view class="li">
+                  免费
+                </view >
+            </view>
+        </view>
+    </view>-->

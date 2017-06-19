@@ -32,7 +32,7 @@
   font-size: 28rpx;
 }
 .heade .title .serch {
-  background: url('../../image/search.png') no-repeat;
+  /*background: url('../../image/search.png') no-repeat;*/
   background-position: 16rpx 10rpx ;
   background-color: white;
   background-size: 33rpx;
@@ -84,6 +84,10 @@
   background-color: pink;
   margin: 20rpx 10rpx  20rpx 20rpx;
 }
+.content .contente .contentel image{
+  width: 100%;
+  height: 100%;
+}
 .content .contente .contenter .ul {
   margin-top: 25rpx;
   line-height: 50rpx;
@@ -92,6 +96,7 @@
   font-size: 28rpx;
   line-height: 31rpx;
   color: #333333;
+  padding-right: 5rpx;
 }
 .content .contente .contenter .ul .ulC {
   margin-top: 15rpx;

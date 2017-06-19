@@ -4,7 +4,7 @@
   height: 100%;
 }
 .content .contentTl {
-  width: 35%;
+  width: 25%;
   height: 100%;
   background-color: #dfdfdf ;
   float: left;
@@ -26,7 +26,7 @@
 .content .contentTr {
   padding-top: 80rpx;
   box-sizing: border-box;
-  margin-left: 35%;
+  margin-left: 25%;
   height: 100%;
   background-color: white;
 }

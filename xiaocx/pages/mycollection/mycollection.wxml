@@ -1,0 +1,20 @@
+<!-- 活动列表 -->
+<block wx:for="{{pd_list}}">
+<view class="contente clearfix">
+        <view class="contentel">
+            <image src="{{item.imgepath}}"></image>
+        </view>
+        <view class="contenter">
+            <view class="ul">
+                <view class="txt_cut li">{{item.title}}</view>
+                <view class="ulC li"><text class="span">{{item.address}}</text> <text class="span">{{item.time}}</text></view>
+                <view class="li">
+                    <image class="ul_l span" src="../../images/yan.png">
+                    </image>
+                    <text class="ul_c span">{{item.browsecount}}</text>
+                    <text class="ul_r span">{{item.price}}</text>
+                </view>
+            </view>
+        </view>
+</view>
+</block>   

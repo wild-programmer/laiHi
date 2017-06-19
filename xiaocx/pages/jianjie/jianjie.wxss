@@ -1,0 +1,21 @@
+/* jianjie.wxss */
+.body{
+  background-color: #f3f3f3;
+}
+textarea{
+  width: 100%;
+  letter-spacing: 4rpx;
+  height: 500rpx;
+  background-color: #ffffff;
+  font-size: 30rpx;
+  padding: 20rpx;
+  position: relative;
+  box-sizing: border-box;
+}
+textarea::before{
+  content: '200';
+  display: block;
+  position:absolute;
+  bottom: 20rpx;
+  right: 70rpx;
+}

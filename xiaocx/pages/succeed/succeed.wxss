@@ -42,3 +42,6 @@ navigator {
   color: #333333;
   background-color: #DFDFDF ;
 }
+.marginbutton{
+  text-align: center;
+}

@@ -1,0 +1,28 @@
+<view>
+   <view class="topImag">
+        <image src="{{userInfo.headimge}}" class="bac_img"></image>
+        <view class="span head"><image class="userinfo-avatar" src="{{userInfo.headimge}}"></image></view>
+    </view>
+    <view class="flexbox">
+       <navigator url="../myticket/myticket"  hover-class="none">
+            <view class="flexview flexbefore">
+                <text>我的票券</text> <image class="arrows_right" src="../../images/arrows.png"></image>
+            </view>
+        </navigator>
+           <navigator url="../mycollection/mycollection"  hover-class="none">
+            <view class="flexview flexbefore">
+                <text>我的收藏</text> <image class="arrows_right" src="../../images/arrows.png"></image>
+            </view>
+        </navigator>
+         <navigator url="../myproject/myproject"  hover-class="none">
+            <view class="flexview flexbefore">
+                <text>我的项目</text> <image class="arrows_right" src="../../images/arrows.png"></image>
+            </view>
+        </navigator>
+        <navigator url="../renzheng/renzheng" hover-class="none">
+            <view class="flexview">
+                <text>认证投资人</text> <image class="arrows_right" src="../../images/arrows.png"></image>
+            </view>
+        </navigator>
+    </view>
+</view>

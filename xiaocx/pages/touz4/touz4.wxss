@@ -1,15 +1,21 @@
-
+.contentC3{
+  padding-left: 10rpx;
+}
 .contentC3 .span {
   display: block;
   float: left;
-  width: 120rpx;
-  height: 60rpx;
-  color: #DB1F57;
-  border: 1px solid #DB1F57;
+  width: 100rpx;
+  height: 50rpx;
+  border: 1px solid #f3f3f3;
+  color: #f3f3f3;
   border-radius: 35rpx;
   text-align: center;
-  line-height: 60rpx;
-  margin-top: 15rpx;
+  line-height: 50rpx;
+  margin-top: 20rpx;
   margin-left: 15rpx;
   font-size: 30rpx;
+}
+.contentC3 .active{
+  background-color: #DB1F57;
+  color: #ffffff;
 }

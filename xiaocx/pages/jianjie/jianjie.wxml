@@ -1,0 +1,3 @@
+<view class="body"  style="height:{{windowHeight}}px">
+  <textarea maxlength="200" placeholder="详细描述下你看的领域和细分的方向,让创业者更好的了解你。" />
+</view>

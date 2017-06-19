@@ -1,35 +1,34 @@
- <view class="content">
+ <checkbox-group bindchange="checkboxgroupBindchange"> 
+ <view class="content" style="height:{{windowHeight}}px">
         <view class="contentC">
             <view class="contentCl">
-                <view class="p" class="backicon" data-click='1'>种子轮投资</view>
+            <checkbox value="checkbox1"><view class="p" bindtap="tianshi1">天使轮投资</view></checkbox>                
             </view>
             <view class="contentCr">
-                <text class="span"></text>
-                <view class="p">天使轮投资</view>
+            <checkbox value="checkbox1"><view class="p" bindtap="tianshi1">天使轮投资</view></checkbox>    
             </view>
             <view class="contentCl">
-                <view class="p">pre-A轮投资</view>
+            <checkbox value="checkbox1"><view class="p" bindtap="tianshi1">天使轮投资</view></checkbox>    
             </view>
             <view class="contentCr">
-                <text class="span"></text>
-                <view class="p">A轮投资</view>
+            <checkbox value="checkbox1"><view class="p" bindtap="tianshi1">天使轮投资</view></checkbox>    
             </view>
             <view class="contentCl">
-                <view class="p">B轮投资</view>
+            <checkbox value="checkbox1"><view class="p" bindtap="tianshi1">天使轮投资</view></checkbox>    
             </view>
             <view class="contentCr">
-                <text class="span"></text>
-                <view class="p">C轮投资</view>
+            <checkbox value="checkbox1"><view class="p" bindtap="tianshi1">天使轮投资</view></checkbox>    
             </view>
             <view class="contentCl">
-                <view class="p">D轮投资</view>
+            <checkbox value="checkbox1"><view class="p" bindtap="tianshi1">天使轮投资</view></checkbox>    
             </view>
             <view class="contentCr">
-                <text class="span"></text>
-                <view class="p">E轮投资</view>
+            <checkbox value="checkbox1"><view class="p" bindtap="tianshi1">天使轮投资</view></checkbox>    
             </view>
             <view class="contentCl">
-                <view class="p">F轮投资</view>
+                <!--<text class="span backicon"></text>-->
+            <checkbox value="checkbox1"><view class="p" bindtap="tianshi1">天使轮投资</view></checkbox>    
             </view>
         </view>
     </view>
+    </checkbox-group>
